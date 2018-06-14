@@ -1,6 +1,6 @@
 {
   "name": "PYPrivacyKit",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "PYPrivacyKit ...Help developers",
   "description": "PYPrivacyKit,Help developers ..... and so on",
   "homepage": "https://gitlab.com/py_security/PYPrivacyKit",
@@ -13,14 +13,13 @@
   },
   "source": {
     "git": "https://gitlab.com/py_security/PYPrivacyKit.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "source_files": [
-    "Classes",
-    "Classes/**/*.{h,m}"
+    "PYPrivacyKit/Classes",
+    "PYPrivacyKit/Classes/**/*.{h,m}"
   ],
-  "exclude_files": "Classes/Exclude",
-  "resources": "icon.png",
+  "exclude_files": "PYPrivacyKit/Classes/Exclude",
   "resource_bundles": {
     "PYPrivacyKit": [
       "PYPrivacyKit/Assets/*"

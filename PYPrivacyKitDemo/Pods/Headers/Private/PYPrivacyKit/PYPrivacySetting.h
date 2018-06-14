@@ -1,1 +1,1 @@
-../../../../../Classes/Setting/PYPrivacySetting.h
+../../../../../PYPrivacyKit/Classes/Setting/PYPrivacySetting.h

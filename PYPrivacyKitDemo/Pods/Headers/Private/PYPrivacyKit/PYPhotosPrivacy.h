@@ -1,1 +1,1 @@
-../../../../../Classes/Photos/PYPhotosPrivacy.h
+../../../../../PYPrivacyKit/Classes/Photos/PYPhotosPrivacy.h

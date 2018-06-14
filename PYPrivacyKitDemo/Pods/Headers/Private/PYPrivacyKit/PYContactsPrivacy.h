@@ -1,1 +1,1 @@
-../../../../../Classes/Contacts/PYContactsPrivacy.h
+../../../../../PYPrivacyKit/Classes/Contacts/PYContactsPrivacy.h

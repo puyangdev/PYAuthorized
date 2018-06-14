@@ -1,1 +1,1 @@
-../../../../../Classes/Reminders/PYRemindersPrivacy.h
+../../../../../PYPrivacyKit/Classes/Reminders/PYRemindersPrivacy.h

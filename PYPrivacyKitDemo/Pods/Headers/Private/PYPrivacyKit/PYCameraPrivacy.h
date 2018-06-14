@@ -1,1 +1,1 @@
-../../../../../Classes/Camera/PYCameraPrivacy.h
+../../../../../PYPrivacyKit/Classes/Camera/PYCameraPrivacy.h
