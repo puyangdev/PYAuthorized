@@ -1,5 +1,5 @@
 PODS:
-  - PYPrivacyKit (0.0.1)
+  - PYPrivacyKit (0.0.2)
 
 DEPENDENCIES:
   - PYPrivacyKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PYPrivacyKit: c7c251ecc8a617e41fca34da4abedc7860631ac0
+  PYPrivacyKit: a2ae0b44fde752ca08cf1fa3691a3df9ee5afee0
 
 PODFILE CHECKSUM: 8dab19d19d3f8d03caa54a5251ba8f83cb709c4a
 
