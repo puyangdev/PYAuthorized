@@ -1,0 +1,97 @@
+//
+//  PYHealthPrivacy.m
+//  PYPrivacyKit
+//
+//  Created by administrator on 2018/5/8.
+//
+
+#import "PYHealthPrivacy.h"
+
+
+@implementation PYHealthPrivacy
++ (BOOL)authorized
+{
+    return [self authorizationStatus] == HKAuthorizationStatusSharingAuthorized;
+}
+
++ (HKAuthorizationStatus)authorizationStatus
+{
+    if (![HKHealthStore isHealthDataAvailable])
+    {
+        return HKAuthorizationStatusSharingDenied;
+    }
+    
+    NSMutableSet *readTypes = [NSMutableSet set];
+    NSMutableSet *writeTypes = [NSMutableSet set];
+    
+    HKHealthStore *healthStore = [[HKHealthStore alloc] init];
+    NSMutableSet *allTypes = [NSMutableSet set];
+    [allTypes unionSet:readTypes];
+    [allTypes unionSet:writeTypes];
+    for (HKObjectType *sampleType in allTypes) {
+        HKAuthorizationStatus status = [healthStore authorizationStatusForType:sampleType];
+        return status;
+    }
+    
+    return HKAuthorizationStatusSharingDenied;
+}
+
++ (BOOL)isHealthDataAvailable
+{
+    return [HKHealthStore isHealthDataAvailable];
+}
+
++ (void)authorizeWithCompletion:(void(^)(BOOL granted,BOOL firstTime))completion
+{
+    if (![HKHealthStore isHealthDataAvailable])
+    {
+        completion(NO,YES);
+        return;
+    }
+    
+    NSMutableSet *readTypes = [NSMutableSet set];
+    NSMutableSet *writeTypes = [NSMutableSet set];
+    
+    HKHealthStore *healthStore = [[HKHealthStore alloc] init];
+    NSMutableSet *allTypes = [NSMutableSet set];
+    [allTypes unionSet:readTypes];
+    [allTypes unionSet:writeTypes];
+    
+    
+    if (allTypes.count <= 0 ) {
+        //设备不支持健康
+        completion(NO,YES);
+        return;
+    }
+    
+    for (HKObjectType *healthType in allTypes) {
+        HKAuthorizationStatus status = [healthStore authorizationStatusForType:healthType];
+        switch (status) {
+            case HKAuthorizationStatusNotDetermined:
+            {
+                HKHealthStore *healthStore = [[HKHealthStore alloc] init];
+                [healthStore requestAuthorizationToShareTypes:writeTypes
+                                                    readTypes:readTypes
+                                                   completion:^(BOOL success, NSError *error) {
+                                                       if (completion) {
+                                                           dispatch_async(dispatch_get_main_queue(), ^{
+                                                               completion(success,YES);
+                                                           });
+                                                       }
+                                                   }];
+            }
+                break;
+            case HKAuthorizationStatusSharingAuthorized: {
+                if (completion) {
+                    completion(YES, NO);
+                }
+            } break;
+            case HKAuthorizationStatusSharingDenied: {
+                if (completion) {
+                    completion(YES, NO);
+                }
+            } break;
+        }
+    }
+}
+@end

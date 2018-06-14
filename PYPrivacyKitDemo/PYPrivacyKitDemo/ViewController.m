@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <PYPrivacyKit/PYPrivacyKit.h>
+#import <PYPrivacyKit/PYPrivacy.h>
 
 @interface ViewController ()
 

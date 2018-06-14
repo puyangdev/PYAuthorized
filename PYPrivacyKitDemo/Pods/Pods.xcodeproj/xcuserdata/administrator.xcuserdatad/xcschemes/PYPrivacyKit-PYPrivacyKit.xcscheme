@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B8E055E523C087D546C4F2814F488281"
+               BlueprintIdentifier = "DE2289F2ECD4B157616476D034854545"
                BlueprintName = "PYPrivacyKit-PYPrivacyKit"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "PYPrivacyKit-PYPrivacyKit.bundle">
