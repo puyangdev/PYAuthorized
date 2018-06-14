@@ -1,0 +1,29 @@
+{
+  "name": "PYPrivacyKit",
+  "version": "0.0.1",
+  "summary": "PYPrivacyKit ...Help developers",
+  "description": "PYPrivacyKit,Help developers ..... and so on",
+  "homepage": "https://gitlab.com/py_security/PYPrivacyKit",
+  "license": "MIT",
+  "authors": {
+    "yupuyang": "yupuyang@51xianqu.net"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://gitlab.com/py_security/PYPrivacyKit.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "resource_bundles": {
+    "PYPrivacyKit": [
+      "PYPrivacyKit/Assets/*"
+    ]
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n\n#endif"
+}

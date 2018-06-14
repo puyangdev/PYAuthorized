@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D97F7A03EEFA45FC522B8B1 /* libPods-PYPrivacyKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A5CD0F4A64BD978D0F1A33 /* libPods-PYPrivacyKitDemo.a */; };
+		AE0EA0F66D46501CA8D6ABD6 /* libPods-PYPrivacyKitDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 770876F7BA5428585075932F /* libPods-PYPrivacyKitDemoTests.a */; };
+		C3E64CA720D108BA00C3E3AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E64CA620D108BA00C3E3AF /* AppDelegate.m */; };
+		C3E64CAA20D108BA00C3E3AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E64CA920D108BA00C3E3AF /* ViewController.m */; };
+		C3E64CAD20D108BA00C3E3AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E64CAB20D108BA00C3E3AF /* Main.storyboard */; };
+		C3E64CAF20D108BB00C3E3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E64CAE20D108BB00C3E3AF /* Assets.xcassets */; };
+		C3E64CB220D108BB00C3E3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E64CB020D108BB00C3E3AF /* LaunchScreen.storyboard */; };
+		C3E64CB520D108BB00C3E3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E64CB420D108BB00C3E3AF /* main.m */; };
+		C3E64CBF20D108BB00C3E3AF /* PYPrivacyKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E64CBE20D108BB00C3E3AF /* PYPrivacyKitDemoTests.m */; };
+		C3E64CCA20D108BB00C3E3AF /* PYPrivacyKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E64CC920D108BB00C3E3AF /* PYPrivacyKitDemoUITests.m */; };
+		D51A4945E699EE748825DBFE /* libPods-PYPrivacyKitDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E2A696A123F209E592CE7F /* libPods-PYPrivacyKitDemoUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3E64CBB20D108BB00C3E3AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3E64C9A20D108BA00C3E3AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3E64CA120D108BA00C3E3AF;
+			remoteInfo = PYPrivacyKitDemo;
+		};
+		C3E64CC620D108BB00C3E3AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3E64C9A20D108BA00C3E3AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3E64CA120D108BA00C3E3AF;
+			remoteInfo = PYPrivacyKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E2A696A123F209E592CE7F /* libPods-PYPrivacyKitDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYPrivacyKitDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB0993E1FE93467AF297FAC /* Pods-PYPrivacyKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYPrivacyKitDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYPrivacyKitDemoTests/Pods-PYPrivacyKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7221A848A28429E2B935D85B /* Pods-PYPrivacyKitDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYPrivacyKitDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYPrivacyKitDemoUITests/Pods-PYPrivacyKitDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		770876F7BA5428585075932F /* libPods-PYPrivacyKitDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYPrivacyKitDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9294BE1BC9B1FBC7070C53C2 /* Pods-PYPrivacyKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYPrivacyKitDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYPrivacyKitDemoUITests/Pods-PYPrivacyKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94D9B48F93CA75AF5D73E987 /* Pods-PYPrivacyKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYPrivacyKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYPrivacyKitDemo/Pods-PYPrivacyKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B2A5CD0F4A64BD978D0F1A33 /* libPods-PYPrivacyKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYPrivacyKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E64CA220D108BA00C3E3AF /* PYPrivacyKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYPrivacyKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E64CA520D108BA00C3E3AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3E64CA620D108BA00C3E3AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3E64CA820D108BA00C3E3AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3E64CA920D108BA00C3E3AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3E64CAC20D108BA00C3E3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3E64CAE20D108BB00C3E3AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3E64CB120D108BB00C3E3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3E64CB320D108BB00C3E3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E64CB420D108BB00C3E3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3E64CBA20D108BB00C3E3AF /* PYPrivacyKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYPrivacyKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E64CBE20D108BB00C3E3AF /* PYPrivacyKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYPrivacyKitDemoTests.m; sourceTree = "<group>"; };
+		C3E64CC020D108BB00C3E3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E64CC520D108BB00C3E3AF /* PYPrivacyKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYPrivacyKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E64CC920D108BB00C3E3AF /* PYPrivacyKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYPrivacyKitDemoUITests.m; sourceTree = "<group>"; };
+		C3E64CCB20D108BB00C3E3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E64CD920D1119000C3E3AF /* PYPrivacyKitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PYPrivacyKitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		DC50691A836E77627E16C510 /* Pods-PYPrivacyKitDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYPrivacyKitDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYPrivacyKitDemoTests/Pods-PYPrivacyKitDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E14B37447D6957A8FCF0B2D8 /* Pods-PYPrivacyKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYPrivacyKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYPrivacyKitDemo/Pods-PYPrivacyKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3E64C9F20D108BA00C3E3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D97F7A03EEFA45FC522B8B1 /* libPods-PYPrivacyKitDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E64CB720D108BB00C3E3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0EA0F66D46501CA8D6ABD6 /* libPods-PYPrivacyKitDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E64CC220D108BB00C3E3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51A4945E699EE748825DBFE /* libPods-PYPrivacyKitDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36BB3B36C0A975EE2ECAC141 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94D9B48F93CA75AF5D73E987 /* Pods-PYPrivacyKitDemo.debug.xcconfig */,
+				E14B37447D6957A8FCF0B2D8 /* Pods-PYPrivacyKitDemo.release.xcconfig */,
+				DC50691A836E77627E16C510 /* Pods-PYPrivacyKitDemoTests.debug.xcconfig */,
+				6CB0993E1FE93467AF297FAC /* Pods-PYPrivacyKitDemoTests.release.xcconfig */,
+				7221A848A28429E2B935D85B /* Pods-PYPrivacyKitDemoUITests.debug.xcconfig */,
+				9294BE1BC9B1FBC7070C53C2 /* Pods-PYPrivacyKitDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3E64C9920D108BA00C3E3AF = {
+			isa = PBXGroup;
+			children = (
+				C3E64CA420D108BA00C3E3AF /* PYPrivacyKitDemo */,
+				C3E64CBD20D108BB00C3E3AF /* PYPrivacyKitDemoTests */,
+				C3E64CC820D108BB00C3E3AF /* PYPrivacyKitDemoUITests */,
+				C3E64CA320D108BA00C3E3AF /* Products */,
+				36BB3B36C0A975EE2ECAC141 /* Pods */,
+				E8EB61675C9E9FD93ADF3E36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3E64CA320D108BA00C3E3AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E64CA220D108BA00C3E3AF /* PYPrivacyKitDemo.app */,
+				C3E64CBA20D108BB00C3E3AF /* PYPrivacyKitDemoTests.xctest */,
+				C3E64CC520D108BB00C3E3AF /* PYPrivacyKitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3E64CA420D108BA00C3E3AF /* PYPrivacyKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3E64CA520D108BA00C3E3AF /* AppDelegate.h */,
+				C3E64CA620D108BA00C3E3AF /* AppDelegate.m */,
+				C3E64CA820D108BA00C3E3AF /* ViewController.h */,
+				C3E64CA920D108BA00C3E3AF /* ViewController.m */,
+				C3E64CAB20D108BA00C3E3AF /* Main.storyboard */,
+				C3E64CAE20D108BB00C3E3AF /* Assets.xcassets */,
+				C3E64CB020D108BB00C3E3AF /* LaunchScreen.storyboard */,
+				C3E64CB320D108BB00C3E3AF /* Info.plist */,
+				C3E64CB420D108BB00C3E3AF /* main.m */,
+				C3E64CD920D1119000C3E3AF /* PYPrivacyKitDemo-Prefix.pch */,
+			);
+			path = PYPrivacyKitDemo;
+			sourceTree = "<group>";
+		};
+		C3E64CBD20D108BB00C3E3AF /* PYPrivacyKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3E64CBE20D108BB00C3E3AF /* PYPrivacyKitDemoTests.m */,
+				C3E64CC020D108BB00C3E3AF /* Info.plist */,
+			);
+			path = PYPrivacyKitDemoTests;
+			sourceTree = "<group>";
+		};
+		C3E64CC820D108BB00C3E3AF /* PYPrivacyKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3E64CC920D108BB00C3E3AF /* PYPrivacyKitDemoUITests.m */,
+				C3E64CCB20D108BB00C3E3AF /* Info.plist */,
+			);
+			path = PYPrivacyKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		E8EB61675C9E9FD93ADF3E36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2A5CD0F4A64BD978D0F1A33 /* libPods-PYPrivacyKitDemo.a */,
+				770876F7BA5428585075932F /* libPods-PYPrivacyKitDemoTests.a */,
+				08E2A696A123F209E592CE7F /* libPods-PYPrivacyKitDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3E64CA120D108BA00C3E3AF /* PYPrivacyKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E64CCE20D108BB00C3E3AF /* Build configuration list for PBXNativeTarget "PYPrivacyKitDemo" */;
+			buildPhases = (
+				F5AD97613C0B5114F7E05771 /* [CP] Check Pods Manifest.lock */,
+				C3E64C9E20D108BA00C3E3AF /* Sources */,
+				C3E64C9F20D108BA00C3E3AF /* Frameworks */,
+				C3E64CA020D108BA00C3E3AF /* Resources */,
+				59BBB7635FFF1C4B072CF113 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYPrivacyKitDemo;
+			productName = PYPrivacyKitDemo;
+			productReference = C3E64CA220D108BA00C3E3AF /* PYPrivacyKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3E64CB920D108BB00C3E3AF /* PYPrivacyKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E64CD120D108BB00C3E3AF /* Build configuration list for PBXNativeTarget "PYPrivacyKitDemoTests" */;
+			buildPhases = (
+				E64830970C5FEEA9459A0CAF /* [CP] Check Pods Manifest.lock */,
+				C3E64CB620D108BB00C3E3AF /* Sources */,
+				C3E64CB720D108BB00C3E3AF /* Frameworks */,
+				C3E64CB820D108BB00C3E3AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3E64CBC20D108BB00C3E3AF /* PBXTargetDependency */,
+			);
+			name = PYPrivacyKitDemoTests;
+			productName = PYPrivacyKitDemoTests;
+			productReference = C3E64CBA20D108BB00C3E3AF /* PYPrivacyKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3E64CC420D108BB00C3E3AF /* PYPrivacyKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E64CD420D108BB00C3E3AF /* Build configuration list for PBXNativeTarget "PYPrivacyKitDemoUITests" */;
+			buildPhases = (
+				E6A060A03597FF3023C58F24 /* [CP] Check Pods Manifest.lock */,
+				C3E64CC120D108BB00C3E3AF /* Sources */,
+				C3E64CC220D108BB00C3E3AF /* Frameworks */,
+				C3E64CC320D108BB00C3E3AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3E64CC720D108BB00C3E3AF /* PBXTargetDependency */,
+			);
+			name = PYPrivacyKitDemoUITests;
+			productName = PYPrivacyKitDemoUITests;
+			productReference = C3E64CC520D108BB00C3E3AF /* PYPrivacyKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E64C9A20D108BA00C3E3AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PY;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "于浦洋";
+				TargetAttributes = {
+					C3E64CA120D108BA00C3E3AF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					C3E64CB920D108BB00C3E3AF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C3E64CA120D108BA00C3E3AF;
+					};
+					C3E64CC420D108BB00C3E3AF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C3E64CA120D108BA00C3E3AF;
+					};
+				};
+			};
+			buildConfigurationList = C3E64C9D20D108BA00C3E3AF /* Build configuration list for PBXProject "PYPrivacyKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3E64C9920D108BA00C3E3AF;
+			productRefGroup = C3E64CA320D108BA00C3E3AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3E64CA120D108BA00C3E3AF /* PYPrivacyKitDemo */,
+				C3E64CB920D108BB00C3E3AF /* PYPrivacyKitDemoTests */,
+				C3E64CC420D108BB00C3E3AF /* PYPrivacyKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3E64CA020D108BA00C3E3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E64CB220D108BB00C3E3AF /* LaunchScreen.storyboard in Resources */,
+				C3E64CAF20D108BB00C3E3AF /* Assets.xcassets in Resources */,
+				C3E64CAD20D108BA00C3E3AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E64CB820D108BB00C3E3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E64CC320D108BB00C3E3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59BBB7635FFF1C4B072CF113 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PYPrivacyKitDemo/Pods-PYPrivacyKitDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/PYPrivacyKit/PYPrivacyKit.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PYPrivacyKit.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYPrivacyKitDemo/Pods-PYPrivacyKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E64830970C5FEEA9459A0CAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYPrivacyKitDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6A060A03597FF3023C58F24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYPrivacyKitDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5AD97613C0B5114F7E05771 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYPrivacyKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3E64C9E20D108BA00C3E3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E64CAA20D108BA00C3E3AF /* ViewController.m in Sources */,
+				C3E64CB520D108BB00C3E3AF /* main.m in Sources */,
+				C3E64CA720D108BA00C3E3AF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E64CB620D108BB00C3E3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E64CBF20D108BB00C3E3AF /* PYPrivacyKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E64CC120D108BB00C3E3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E64CCA20D108BB00C3E3AF /* PYPrivacyKitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3E64CBC20D108BB00C3E3AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3E64CA120D108BA00C3E3AF /* PYPrivacyKitDemo */;
+			targetProxy = C3E64CBB20D108BB00C3E3AF /* PBXContainerItemProxy */;
+		};
+		C3E64CC720D108BB00C3E3AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3E64CA120D108BA00C3E3AF /* PYPrivacyKitDemo */;
+			targetProxy = C3E64CC620D108BB00C3E3AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3E64CAB20D108BA00C3E3AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E64CAC20D108BA00C3E3AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3E64CB020D108BB00C3E3AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E64CB120D108BB00C3E3AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3E64CCC20D108BB00C3E3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PYPrivacyKitDemo/PYPrivacyKitDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3E64CCD20D108BB00C3E3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PYPrivacyKitDemo/PYPrivacyKitDemo-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E64CCF20D108BB00C3E3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D9B48F93CA75AF5D73E987 /* Pods-PYPrivacyKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3B82TM5D5;
+				INFOPLIST_FILE = PYPrivacyKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xq.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3E64CD020D108BB00C3E3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E14B37447D6957A8FCF0B2D8 /* Pods-PYPrivacyKitDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3B82TM5D5;
+				INFOPLIST_FILE = PYPrivacyKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xq.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3E64CD220D108BB00C3E3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC50691A836E77627E16C510 /* Pods-PYPrivacyKitDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3B82TM5D5;
+				INFOPLIST_FILE = PYPrivacyKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xq.demo.PYPrivacyKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYPrivacyKitDemo.app/PYPrivacyKitDemo";
+			};
+			name = Debug;
+		};
+		C3E64CD320D108BB00C3E3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CB0993E1FE93467AF297FAC /* Pods-PYPrivacyKitDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3B82TM5D5;
+				INFOPLIST_FILE = PYPrivacyKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xq.demo.PYPrivacyKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYPrivacyKitDemo.app/PYPrivacyKitDemo";
+			};
+			name = Release;
+		};
+		C3E64CD520D108BB00C3E3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7221A848A28429E2B935D85B /* Pods-PYPrivacyKitDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3B82TM5D5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PYPrivacyKitDemo/PYPrivacyKitDemo-Prefix.h";
+				INFOPLIST_FILE = PYPrivacyKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xq.demo.PYPrivacyKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PYPrivacyKitDemo;
+			};
+			name = Debug;
+		};
+		C3E64CD620D108BB00C3E3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9294BE1BC9B1FBC7070C53C2 /* Pods-PYPrivacyKitDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3B82TM5D5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PYPrivacyKitDemo/PYPrivacyKitDemo-Prefix.h";
+				INFOPLIST_FILE = PYPrivacyKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xq.demo.PYPrivacyKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PYPrivacyKitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3E64C9D20D108BA00C3E3AF /* Build configuration list for PBXProject "PYPrivacyKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E64CCC20D108BB00C3E3AF /* Debug */,
+				C3E64CCD20D108BB00C3E3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E64CCE20D108BB00C3E3AF /* Build configuration list for PBXNativeTarget "PYPrivacyKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E64CCF20D108BB00C3E3AF /* Debug */,
+				C3E64CD020D108BB00C3E3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E64CD120D108BB00C3E3AF /* Build configuration list for PBXNativeTarget "PYPrivacyKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E64CD220D108BB00C3E3AF /* Debug */,
+				C3E64CD320D108BB00C3E3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E64CD420D108BB00C3E3AF /* Build configuration list for PBXNativeTarget "PYPrivacyKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E64CD520D108BB00C3E3AF /* Debug */,
+				C3E64CD620D108BB00C3E3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3E64C9A20D108BA00C3E3AF /* Project object */;
+}

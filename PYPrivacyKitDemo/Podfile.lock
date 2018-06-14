@@ -1,0 +1,16 @@
+PODS:
+  - PYPrivacyKit (0.0.1)
+
+DEPENDENCIES:
+  - PYPrivacyKit (from `../`)
+
+EXTERNAL SOURCES:
+  PYPrivacyKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PYPrivacyKit: c7c251ecc8a617e41fca34da4abedc7860631ac0
+
+PODFILE CHECKSUM: 8dab19d19d3f8d03caa54a5251ba8f83cb709c4a
+
+COCOAPODS: 1.5.3
