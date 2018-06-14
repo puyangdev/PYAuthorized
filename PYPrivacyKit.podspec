@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-    s.resource  = "icon.png"
+  # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
     s.resource_bundles = {
         'PYPrivacyKit' => ['PYPrivacyKit/Assets/*']
