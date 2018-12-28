@@ -53,9 +53,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "yupuyang" => "yupuyang@51xianqu.net" }
-  # Or just: s.author    = "yupuyang"
-  # s.authors            = { "yupuyang" => "yupuyang@51xianqu.net" }
+  s.author             = { "puyangdev" => "648135401@qq.com" }
+  # Or just: s.author    = "puyangdev"
+  # s.authors            = { "puyangdev" => "648135401@qq.com" }
   # s.social_media_url   = "http://twitter.com/yupuyang"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://gitlab.com/py_security/PYPrivacyKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/puyangdev/PYAuthorized.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
