@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint PYPrivacyKit.podspec' to ensure this is a
+#  Be sure to run `pod spec lint PYAuthorized.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "PYPrivacyKit"
+  s.name         = "PYAuthorized"
   s.version      = "0.0.5"
-  s.summary      = "PYPrivacyKit ...Help developers"
+  s.summary      = "PYAuthorized ...Help developers"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    PYPrivacyKit,Help developers ..... and so on
+                    PYAuthorized,Help developers ..... and so on
                    DESC
 
-  s.homepage     = "https://gitlab.com/py_security/PYPrivacyKit"
+  s.homepage     = "https://gitlab.com/py_security/PYAuthorized"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "PYPrivacyKit/Classes", "PYPrivacyKit/Classes/**/*.{h,m}"
-  s.exclude_files = "PYPrivacyKit/Classes/Exclude"
+  s.source_files  = "PYAuthorized/Classes", "PYAuthorized/Classes/**/*.{h,m}"
+  s.exclude_files = "PYAuthorized/Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -107,7 +107,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
     s.resource_bundles = {
-        'PYPrivacyKit' => ['PYPrivacyKit/Assets/*']
+        'PYAuthorized' => ['PYAuthorized/Assets/*']
     }
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
