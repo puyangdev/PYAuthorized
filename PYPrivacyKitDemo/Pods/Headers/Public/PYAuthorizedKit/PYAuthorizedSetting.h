@@ -1,0 +1,1 @@
+../../../../../PYAuthorizedKit/Classes/Setting/PYAuthorizedSetting.h

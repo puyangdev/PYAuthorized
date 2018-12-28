@@ -1,0 +1,1 @@
+../../../../../PYAuthorizedKit/Classes/Camera/PYCameraAuthorized.h

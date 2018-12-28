@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0965FF4D4106D2D353CA7A739CD7CDF3 /* PYPhotosPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F386F3F12C04BB55D8A17FCB15723 /* PYPhotosPrivacy.m */; };
-		16B7B497151B827822BBD3F558E86736 /* PYHealthPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9243E59866643F8D7757DE5C747C5C54 /* PYHealthPrivacy.m */; };
+		069F249DA3526021B97D0EFF460699B7 /* PYContactsAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEE02E06F57C6F3F01179BE9CED28AC /* PYContactsAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0CC4FE4240332D8DD8B5CF8807CE7F9E /* PYAuthorizedKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D383603A2EE48ACE1FEF3FE58765D6 /* PYAuthorizedKit-dummy.m */; };
+		245BC7B3B8BBE155C9DC8A385667AE7D /* PYLocationAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = 612A69273A2456B4F409031DB221B151 /* PYLocationAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		28B04FF735C1F0E1B55BC2D8BBF09114 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DADEB66EBA835D8DF176933E7462AD /* icon.png */; };
-		3871F24812AF6F680E5019E9E005775F /* PYCameraPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = A30729E3801C7D6ECB8A7C3B5BC9FC65 /* PYCameraPrivacy.m */; };
-		4A5D01D6F533D619FBADD364D6897856 /* PYMicrophonePrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE29EF2CC457FF4F66F66E260F6160E /* PYMicrophonePrivacy.m */; };
-		4F1A70283BE755553D2D9383CDA9015B /* PYRemindersPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = D078C42087AC5FFE3198335FFD657FFC /* PYRemindersPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5E6262E32813EBB47C47F1D9553E3756 /* PYPhotosPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C66B7AD2D460D0B1DEFB1F5D6A01000 /* PYPhotosPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		607B89CE21C2F63FB62948B2A869B8DA /* PYMicrophonePrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7A5F309B5757AFA90051C8E994A241 /* PYMicrophonePrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6430BAD0BD805167EEF3CA71279C50CA /* PYLocationPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D32336777F0681178B9E4BC08795BA7 /* PYLocationPrivacy.m */; };
+		3DDD26CDEE2E6F2BF7328A8DE37E6BEE /* PYLocationAuthorized.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F78F5D52B370E74AB99E875C7F94D77 /* PYLocationAuthorized.m */; };
+		49137ACEC645787A1C879CB44E37365A /* PYRemindersAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E200756083179CF2A6FB9E470A1EFE3 /* PYRemindersAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B315524F491A31074278DA1CBA4780E /* PYNetWorkAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C02D0E6BB8F3F31B6A3B52F0EA27C7 /* PYNetWorkAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5846D94F43B7061CDD4F5A9C38C17FC2 /* PYAuthorizedSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = F98CEAE28537D099E670B722A6626F63 /* PYAuthorizedSetting.m */; };
+		60ABCC0B47560440AF84E5B0A7EB2F37 /* PYCameraAuthorized.m in Sources */ = {isa = PBXBuildFile; fileRef = 520DFB56CA9EC4259F43A5A53A71BF19 /* PYCameraAuthorized.m */; };
+		6BCFB8D48BC91E808271337A81620175 /* PYMicrophoneAuthorized.m in Sources */ = {isa = PBXBuildFile; fileRef = 456C52E31CBE08BE0B0332454B699064 /* PYMicrophoneAuthorized.m */; };
+		709DDE44CB70561FC95F53DE62793232 /* PYCalendarAuthorized.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A990A1FDD0045D7DFFEE25BF395437 /* PYCalendarAuthorized.m */; };
+		78BD68D42B1B6506973319E2F41ABC4F /* PYContactsAuthorized.m in Sources */ = {isa = PBXBuildFile; fileRef = 584865E4363BEA50DF663021FE99BA33 /* PYContactsAuthorized.m */; };
+		78DD8230EDAD240EBED193E1B8632251 /* PYAuthorizedSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = E43819F047E4C196D3AD8F683F5C68C2 /* PYAuthorizedSetting.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		79FF6B813064CD4E1C2FCB3CBC3B8820 /* Pods-PYPrivacyKitDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C1F9A769A0CC690AF0071DEA71F13 /* Pods-PYPrivacyKitDemoUITests-dummy.m */; };
-		82DDCD8AFDC1DD265E70A8E3B7666FBE /* PYRemindersPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126D209F5C52C1EBBF29A4A1F19276D /* PYRemindersPrivacy.m */; };
-		9289B541EC0825929770AB064CC7F018 /* PYCameraPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 730055F8CF554AFC7E094065F8FD8077 /* PYCameraPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		94ED2935CD2694DAED613A34B9EDE28F /* PYLocationPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE0C0A2B8E230E2DC2CC397AAB32DDA /* PYLocationPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9D0D4080DF3D0318C9B752DD4F681B7C /* PYAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D13432D3D1C1B5EA9CC48D9D0C3115 /* PYAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A8C64954D611BC726928EFAA9D54764E /* PYNetWorkPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE3141215678059A29220E5B4BE6620 /* PYNetWorkPrivacy.m */; };
-		B093693128FC4A0DB0211CA3FD4E20F0 /* PYHealthPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 05FA4F3D34E3E0EA8C01EBF5CE2B8A0D /* PYHealthPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8218D2114B257A3FC41F0DDCFF44AE5A /* PYHealthAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = 397C8791B20B6094F92369FD4B340127 /* PYHealthAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		987605AF2447C41D28791083FC70970E /* PYCalendarAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = D777D0357D1DFCF5D7505AF175C3E800 /* PYCalendarAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9962F6E54FA943AB8678A4690F03D7C2 /* PYCameraAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A96A0EA540B2F17B2F21365A4B41FB /* PYCameraAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B69EC2EDE5A31870E68A8DAA0D81BED9 /* Pods-PYPrivacyKitDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2BDEC264B7683005DA28555841F7A /* Pods-PYPrivacyKitDemoTests-dummy.m */; };
-		BD2D32CFAD83EBB728F48358D6F3F826 /* PYPrivacySetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A238CE4294960FE334CCD54056A207D /* PYPrivacySetting.m */; };
-		D1F252FA26DF5DB3665BA895AE27E295 /* PYCalendarPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A5430017B1CF325A1B24A7639A0FE0 /* PYCalendarPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D61DB7DAA475CA92F22A516C338B9B67 /* PYNetWorkPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F8E685B583A4321308C5E728233E6F /* PYNetWorkPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D75AD51A4F7A48D020B3112457A0DA57 /* PYPrivacySetting.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFDC19FABDDE3FFE941AA9AC77471C9 /* PYPrivacySetting.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D8C55401D299939477983F36174443DD /* PYCalendarPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB1E712DC0BFA9DABFE7A1D3303394 /* PYCalendarPrivacy.m */; };
-		DC9E943C980AD890748B2137E9925F61 /* PYContactsPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C37C60C9C640236629A6479F93577F /* PYContactsPrivacy.m */; };
-		EEDD3EB50222CD2277EDDD7DC6756D99 /* PYAuthorizedKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D383603A2EE48ACE1FEF3FE58765D6 /* PYAuthorizedKit-dummy.m */; };
+		B8E792DB2ACEB279868D866599226DB8 /* PYAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D13432D3D1C1B5EA9CC48D9D0C3115 /* PYAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBFDCD03A2C3D3F66781528CE5EA9CBC /* PYPhotosAuthorized.m in Sources */ = {isa = PBXBuildFile; fileRef = 48492E19030932335F6F11909BDB5597 /* PYPhotosAuthorized.m */; };
+		D17BB9038989B7A4777788A9EA876E59 /* PYNetWorkAuthorized.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AD2D2D83CEE2759F5D72D8F5F08873 /* PYNetWorkAuthorized.m */; };
+		D20D84AB27E065F6CE5BF68F8C29E968 /* PYRemindersAuthorized.m in Sources */ = {isa = PBXBuildFile; fileRef = 818136F1028A9536EF8D4D6736F8455B /* PYRemindersAuthorized.m */; };
+		DF4C31D9916881A0F63111066F0D1950 /* PYHealthAuthorized.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1ADB8C220883359F4858D589C0E65B /* PYHealthAuthorized.m */; };
 		F2EFF249B1096986A12BD2B06B90D46E /* Pods-PYPrivacyKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699EE7692D8DD524663BF4BC2B0B06DB /* Pods-PYPrivacyKitDemo-dummy.m */; };
-		F90B9C922AFC456883C0013E88DFFBB8 /* PYContactsPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 076505348EBA26161AF4F51090A28D98 /* PYContactsPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE068C95CFC039E5850EB44545007D07 /* PYMicrophoneAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = 2071A1B374961A5E458C9382BA8D546C /* PYMicrophoneAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF471968A3BE30CADDB0375E6A674800 /* PYPhotosAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF14F7289A9244273D8F256C0B223AA /* PYPhotosAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,62 +67,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05FA4F3D34E3E0EA8C01EBF5CE2B8A0D /* PYHealthPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYHealthPrivacy.h; sourceTree = "<group>"; };
-		076505348EBA26161AF4F51090A28D98 /* PYContactsPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYContactsPrivacy.h; sourceTree = "<group>"; };
 		08D13432D3D1C1B5EA9CC48D9D0C3115 /* PYAuthorized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAuthorized.h; path = PYAuthorizedKit/Classes/PYAuthorized.h; sourceTree = "<group>"; };
-		0AE29EF2CC457FF4F66F66E260F6160E /* PYMicrophonePrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYMicrophonePrivacy.m; sourceTree = "<group>"; };
-		0BCB1E712DC0BFA9DABFE7A1D3303394 /* PYCalendarPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYCalendarPrivacy.m; sourceTree = "<group>"; };
-		0C66B7AD2D460D0B1DEFB1F5D6A01000 /* PYPhotosPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYPhotosPrivacy.h; sourceTree = "<group>"; };
 		0DB183717492955B9061B9051F2667EC /* Pods-PYPrivacyKitDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYPrivacyKitDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1126D209F5C52C1EBBF29A4A1F19276D /* PYRemindersPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYRemindersPrivacy.m; sourceTree = "<group>"; };
 		1BA29E90AA59317EEF5F6DB5E84B09FF /* PYAuthorizedKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYAuthorizedKit-prefix.pch"; sourceTree = "<group>"; };
 		1D888768C83E24D72013B4234B659D98 /* Pods-PYPrivacyKitDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2071A1B374961A5E458C9382BA8D546C /* PYMicrophoneAuthorized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYMicrophoneAuthorized.h; sourceTree = "<group>"; };
 		24CA874C3A391F53BF91B7DD166E8B1F /* PYAuthorizedKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PYAuthorizedKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		27B3A96E97F194B59E020F1BB7BFF3D2 /* libPYAuthorizedKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPYAuthorizedKit.a; path = libPYAuthorizedKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7C1F9A769A0CC690AF0071DEA71F13 /* Pods-PYPrivacyKitDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYPrivacyKitDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		31C02D0E6BB8F3F31B6A3B52F0EA27C7 /* PYNetWorkAuthorized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYNetWorkAuthorized.h; sourceTree = "<group>"; };
 		34E3B832F8CA26A27817D088093DCE98 /* Pods-PYPrivacyKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		3D32336777F0681178B9E4BC08795BA7 /* PYLocationPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYLocationPrivacy.m; sourceTree = "<group>"; };
-		457F386F3F12C04BB55D8A17FCB15723 /* PYPhotosPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYPhotosPrivacy.m; sourceTree = "<group>"; };
+		397C8791B20B6094F92369FD4B340127 /* PYHealthAuthorized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYHealthAuthorized.h; sourceTree = "<group>"; };
+		456C52E31CBE08BE0B0332454B699064 /* PYMicrophoneAuthorized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYMicrophoneAuthorized.m; sourceTree = "<group>"; };
+		48492E19030932335F6F11909BDB5597 /* PYPhotosAuthorized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYPhotosAuthorized.m; sourceTree = "<group>"; };
 		48D383603A2EE48ACE1FEF3FE58765D6 /* PYAuthorizedKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PYAuthorizedKit-dummy.m"; sourceTree = "<group>"; };
 		4C40F2F2AA6A3A5B7DEC196878782160 /* Pods-PYPrivacyKitDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemoTests-frameworks.sh"; sourceTree = "<group>"; };
-		57F8E685B583A4321308C5E728233E6F /* PYNetWorkPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYNetWorkPrivacy.h; sourceTree = "<group>"; };
-		5EE3141215678059A29220E5B4BE6620 /* PYNetWorkPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYNetWorkPrivacy.m; sourceTree = "<group>"; };
+		4DF14F7289A9244273D8F256C0B223AA /* PYPhotosAuthorized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYPhotosAuthorized.h; sourceTree = "<group>"; };
+		520DFB56CA9EC4259F43A5A53A71BF19 /* PYCameraAuthorized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYCameraAuthorized.m; sourceTree = "<group>"; };
+		584865E4363BEA50DF663021FE99BA33 /* PYContactsAuthorized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYContactsAuthorized.m; sourceTree = "<group>"; };
+		5F78F5D52B370E74AB99E875C7F94D77 /* PYLocationAuthorized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYLocationAuthorized.m; sourceTree = "<group>"; };
+		612A69273A2456B4F409031DB221B151 /* PYLocationAuthorized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYLocationAuthorized.h; sourceTree = "<group>"; };
 		699EE7692D8DD524663BF4BC2B0B06DB /* Pods-PYPrivacyKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYPrivacyKitDemo-dummy.m"; sourceTree = "<group>"; };
-		730055F8CF554AFC7E094065F8FD8077 /* PYCameraPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYCameraPrivacy.h; sourceTree = "<group>"; };
+		6E200756083179CF2A6FB9E470A1EFE3 /* PYRemindersAuthorized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYRemindersAuthorized.h; sourceTree = "<group>"; };
 		759311EF194200D33F7C0AE464F73908 /* ResourceBundle-PYAuthorizedKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PYAuthorizedKit-Info.plist"; sourceTree = "<group>"; };
 		76776F4ABF7E9F61BCD0E569E13EE9CC /* libPods-PYPrivacyKitDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PYPrivacyKitDemoTests.a"; path = "libPods-PYPrivacyKitDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C368008435F1159341526FF7C80B99 /* Pods-PYPrivacyKitDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYPrivacyKitDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7A238CE4294960FE334CCD54056A207D /* PYPrivacySetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYPrivacySetting.m; sourceTree = "<group>"; };
+		818136F1028A9536EF8D4D6736F8455B /* PYRemindersAuthorized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYRemindersAuthorized.m; sourceTree = "<group>"; };
 		84C2BDEC264B7683005DA28555841F7A /* Pods-PYPrivacyKitDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYPrivacyKitDemoTests-dummy.m"; sourceTree = "<group>"; };
 		87AEE9D4E37DCC01BA614518DEEB3297 /* Pods-PYPrivacyKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		88AD2D2D83CEE2759F5D72D8F5F08873 /* PYNetWorkAuthorized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYNetWorkAuthorized.m; sourceTree = "<group>"; };
 		89F3E2A8EB712C329FEBA9153196D9DF /* Pods-PYPrivacyKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		8FE0C0A2B8E230E2DC2CC397AAB32DDA /* PYLocationPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYLocationPrivacy.h; sourceTree = "<group>"; };
 		90CD57D4BC160C3105600BF883E746F4 /* libPods-PYPrivacyKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PYPrivacyKitDemo.a"; path = "libPods-PYPrivacyKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9243E59866643F8D7757DE5C747C5C54 /* PYHealthPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYHealthPrivacy.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9513524B7243BF65A39CB8EF9D73FCB6 /* Pods-PYPrivacyKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemo-frameworks.sh"; sourceTree = "<group>"; };
 		954F9181B730132B8D071D800CA02CA0 /* Pods-PYPrivacyKitDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYPrivacyKitDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		99A5430017B1CF325A1B24A7639A0FE0 /* PYCalendarPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYCalendarPrivacy.h; sourceTree = "<group>"; };
+		95A96A0EA540B2F17B2F21365A4B41FB /* PYCameraAuthorized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYCameraAuthorized.h; sourceTree = "<group>"; };
 		9CA5E99A912563928002D460B675C415 /* libPods-PYPrivacyKitDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PYPrivacyKitDemoUITests.a"; path = "libPods-PYPrivacyKitDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A30729E3801C7D6ECB8A7C3B5BC9FC65 /* PYCameraPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYCameraPrivacy.m; sourceTree = "<group>"; };
 		A3DADEB66EBA835D8DF176933E7462AD /* icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon.png; path = PYAuthorizedKit/Assets/icon.png; sourceTree = "<group>"; };
-		ABFDC19FABDDE3FFE941AA9AC77471C9 /* PYPrivacySetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYPrivacySetting.h; sourceTree = "<group>"; };
 		AC03C403B5B4E984BC2B6C8AD64095F7 /* PYAuthorizedKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYAuthorizedKit.xcconfig; sourceTree = "<group>"; };
 		ADF0DF0A4126A461365D27519514CA4A /* PYAuthorizedKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PYAuthorizedKit.bundle; path = "PYAuthorizedKit-PYAuthorizedKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB28AE4C8F4FCA19127E34D2521EE0D /* Pods-PYPrivacyKitDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BEEACEFEDC2A1A5996A9E2D1E305536B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BFDE9019DCF944D83DA017DFA8E30A23 /* Pods-PYPrivacyKitDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYPrivacyKitDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C1D37C002F4E4E96446B12B6CE675D4A /* Pods-PYPrivacyKitDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C2C37C60C9C640236629A6479F93577F /* PYContactsPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYContactsPrivacy.m; sourceTree = "<group>"; };
 		C36AEF9E978C39DB583A5385B4DA3E26 /* Pods-PYPrivacyKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYPrivacyKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9A990A1FDD0045D7DFFEE25BF395437 /* PYCalendarAuthorized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYCalendarAuthorized.m; sourceTree = "<group>"; };
 		D001509FE10951E2B57E39BA31815073 /* Pods-PYPrivacyKitDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemo-resources.sh"; sourceTree = "<group>"; };
-		D078C42087AC5FFE3198335FFD657FFC /* PYRemindersPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYRemindersPrivacy.h; sourceTree = "<group>"; };
 		D2D67F42523884DA10675B70E4BBA155 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D777D0357D1DFCF5D7505AF175C3E800 /* PYCalendarAuthorized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYCalendarAuthorized.h; sourceTree = "<group>"; };
+		DCEE02E06F57C6F3F01179BE9CED28AC /* PYContactsAuthorized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYContactsAuthorized.h; sourceTree = "<group>"; };
+		DE1ADB8C220883359F4858D589C0E65B /* PYHealthAuthorized.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYHealthAuthorized.m; sourceTree = "<group>"; };
+		E43819F047E4C196D3AD8F683F5C68C2 /* PYAuthorizedSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYAuthorizedSetting.h; sourceTree = "<group>"; };
 		E45D73C74941214D84FD3CDE4BA91DF7 /* Pods-PYPrivacyKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F0F1C54023C698C44A3293D690AF3F03 /* Pods-PYPrivacyKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYPrivacyKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		F3D127CE93DFD97FCCD9398B03D2D398 /* Pods-PYPrivacyKitDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		F98CEAE28537D099E670B722A6626F63 /* PYAuthorizedSetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYAuthorizedSetting.m; sourceTree = "<group>"; };
 		FBCD27294C92D00C534077E8F17C4AAD /* Pods-PYPrivacyKitDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemoTests-resources.sh"; sourceTree = "<group>"; };
-		FF7A5F309B5757AFA90051C8E994A241 /* PYMicrophonePrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYMicrophonePrivacy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,11 +164,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E1486F5BDE8183ABBFC57D91221B939 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				D777D0357D1DFCF5D7505AF175C3E800 /* PYCalendarAuthorized.h */,
+				C9A990A1FDD0045D7DFFEE25BF395437 /* PYCalendarAuthorized.m */,
+			);
+			name = Calendar;
+			path = PYAuthorizedKit/Classes/Calendar;
+			sourceTree = "<group>";
+		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		126E218F01F34C3997D7A95C3F8AAA68 /* Microphone */ = {
+			isa = PBXGroup;
+			children = (
+				2071A1B374961A5E458C9382BA8D546C /* PYMicrophoneAuthorized.h */,
+				456C52E31CBE08BE0B0332454B699064 /* PYMicrophoneAuthorized.m */,
+			);
+			name = Microphone;
+			path = PYAuthorizedKit/Classes/Microphone;
 			sourceTree = "<group>";
 		};
 		1A23C30FEA89BE49B3FE97CDD1B572DF /* Products */ = {
@@ -201,34 +221,54 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		4290C78D28F21030E1C47F977FF6B23A /* NetWork */ = {
+		392B2453203A727D6D125A053F34C749 /* Location */ = {
 			isa = PBXGroup;
 			children = (
-				57F8E685B583A4321308C5E728233E6F /* PYNetWorkPrivacy.h */,
-				5EE3141215678059A29220E5B4BE6620 /* PYNetWorkPrivacy.m */,
-			);
-			name = NetWork;
-			path = PYAuthorizedKit/Classes/NetWork;
-			sourceTree = "<group>";
-		};
-		5AC024CAEBC99632EA21E7BEA9B265DB /* Location */ = {
-			isa = PBXGroup;
-			children = (
-				8FE0C0A2B8E230E2DC2CC397AAB32DDA /* PYLocationPrivacy.h */,
-				3D32336777F0681178B9E4BC08795BA7 /* PYLocationPrivacy.m */,
+				612A69273A2456B4F409031DB221B151 /* PYLocationAuthorized.h */,
+				5F78F5D52B370E74AB99E875C7F94D77 /* PYLocationAuthorized.m */,
 			);
 			name = Location;
 			path = PYAuthorizedKit/Classes/Location;
 			sourceTree = "<group>";
 		};
-		6DCB669EDC9E57114401000691C6532E /* Calendar */ = {
+		3BCD0E237D299B91A2F6420AF691BE6D /* Setting */ = {
 			isa = PBXGroup;
 			children = (
-				99A5430017B1CF325A1B24A7639A0FE0 /* PYCalendarPrivacy.h */,
-				0BCB1E712DC0BFA9DABFE7A1D3303394 /* PYCalendarPrivacy.m */,
+				E43819F047E4C196D3AD8F683F5C68C2 /* PYAuthorizedSetting.h */,
+				F98CEAE28537D099E670B722A6626F63 /* PYAuthorizedSetting.m */,
 			);
-			name = Calendar;
-			path = PYAuthorizedKit/Classes/Calendar;
+			name = Setting;
+			path = PYAuthorizedKit/Classes/Setting;
+			sourceTree = "<group>";
+		};
+		428A5C8C52AA16666E58106911645BC2 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				31C02D0E6BB8F3F31B6A3B52F0EA27C7 /* PYNetWorkAuthorized.h */,
+				88AD2D2D83CEE2759F5D72D8F5F08873 /* PYNetWorkAuthorized.m */,
+			);
+			name = NetWork;
+			path = PYAuthorizedKit/Classes/NetWork;
+			sourceTree = "<group>";
+		};
+		56BEE78E730AFFC848E6F984A65EAE4A /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				4DF14F7289A9244273D8F256C0B223AA /* PYPhotosAuthorized.h */,
+				48492E19030932335F6F11909BDB5597 /* PYPhotosAuthorized.m */,
+			);
+			name = Photos;
+			path = PYAuthorizedKit/Classes/Photos;
+			sourceTree = "<group>";
+		};
+		798AEA5EDAE9B4189F57C52A10FE785E /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				6E200756083179CF2A6FB9E470A1EFE3 /* PYRemindersAuthorized.h */,
+				818136F1028A9536EF8D4D6736F8455B /* PYRemindersAuthorized.m */,
+			);
+			name = Reminders;
+			path = PYAuthorizedKit/Classes/Reminders;
 			sourceTree = "<group>";
 		};
 		7D1A9CA2BD4B37D415A026201030BBDE /* Pods-PYPrivacyKitDemoUITests */ = {
@@ -257,34 +297,34 @@
 			);
 			sourceTree = "<group>";
 		};
-		86654D06F0545898DC211F0E39602F1C /* Reminders */ = {
+		8357261719DA6CE0BBFD644DCE423774 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				D078C42087AC5FFE3198335FFD657FFC /* PYRemindersPrivacy.h */,
-				1126D209F5C52C1EBBF29A4A1F19276D /* PYRemindersPrivacy.m */,
+				DCEE02E06F57C6F3F01179BE9CED28AC /* PYContactsAuthorized.h */,
+				584865E4363BEA50DF663021FE99BA33 /* PYContactsAuthorized.m */,
 			);
-			name = Reminders;
-			path = PYAuthorizedKit/Classes/Reminders;
+			name = Contacts;
+			path = PYAuthorizedKit/Classes/Contacts;
 			sourceTree = "<group>";
 		};
-		98F17215BC2866117028F9E0778E2A74 /* Health */ = {
+		AE2AFC7FED1E2EFB7B62AB7521020695 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				05FA4F3D34E3E0EA8C01EBF5CE2B8A0D /* PYHealthPrivacy.h */,
-				9243E59866643F8D7757DE5C747C5C54 /* PYHealthPrivacy.m */,
+				95A96A0EA540B2F17B2F21365A4B41FB /* PYCameraAuthorized.h */,
+				520DFB56CA9EC4259F43A5A53A71BF19 /* PYCameraAuthorized.m */,
+			);
+			name = Camera;
+			path = PYAuthorizedKit/Classes/Camera;
+			sourceTree = "<group>";
+		};
+		AFBFD6BE7BE162FB8A2ED5B49F120F33 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				397C8791B20B6094F92369FD4B340127 /* PYHealthAuthorized.h */,
+				DE1ADB8C220883359F4858D589C0E65B /* PYHealthAuthorized.m */,
 			);
 			name = Health;
 			path = PYAuthorizedKit/Classes/Health;
-			sourceTree = "<group>";
-		};
-		D94DEC1A837B98D3EFC50FB6BE1C4B30 /* Photos */ = {
-			isa = PBXGroup;
-			children = (
-				0C66B7AD2D460D0B1DEFB1F5D6A01000 /* PYPhotosPrivacy.h */,
-				457F386F3F12C04BB55D8A17FCB15723 /* PYPhotosPrivacy.m */,
-			);
-			name = Photos;
-			path = PYAuthorizedKit/Classes/Photos;
 			sourceTree = "<group>";
 		};
 		DAD56A72894884E2B0B239141BB8805C /* Pods-PYPrivacyKitDemo */ = {
@@ -316,52 +356,22 @@
 			isa = PBXGroup;
 			children = (
 				08D13432D3D1C1B5EA9CC48D9D0C3115 /* PYAuthorized.h */,
-				6DCB669EDC9E57114401000691C6532E /* Calendar */,
-				FFF1EA0031C967DFE950564117DB3B51 /* Camera */,
-				E95308646E8B7F27C5FDEB3234D6E41E /* Contacts */,
-				98F17215BC2866117028F9E0778E2A74 /* Health */,
-				5AC024CAEBC99632EA21E7BEA9B265DB /* Location */,
-				E4449593880E6413473F7ED6B6521DEA /* Microphone */,
-				4290C78D28F21030E1C47F977FF6B23A /* NetWork */,
-				D94DEC1A837B98D3EFC50FB6BE1C4B30 /* Photos */,
+				0E1486F5BDE8183ABBFC57D91221B939 /* Calendar */,
+				AE2AFC7FED1E2EFB7B62AB7521020695 /* Camera */,
+				8357261719DA6CE0BBFD644DCE423774 /* Contacts */,
+				AFBFD6BE7BE162FB8A2ED5B49F120F33 /* Health */,
+				392B2453203A727D6D125A053F34C749 /* Location */,
+				126E218F01F34C3997D7A95C3F8AAA68 /* Microphone */,
+				428A5C8C52AA16666E58106911645BC2 /* NetWork */,
+				56BEE78E730AFFC848E6F984A65EAE4A /* Photos */,
 				38DCF794146EC614AFB9EE1407BBE21A /* Pod */,
-				86654D06F0545898DC211F0E39602F1C /* Reminders */,
+				798AEA5EDAE9B4189F57C52A10FE785E /* Reminders */,
 				F1641CCABD2FB56185468E93B6FF2175 /* Resources */,
-				E991EE53033ED5290CA224987E049F23 /* Setting */,
+				3BCD0E237D299B91A2F6420AF691BE6D /* Setting */,
 				EC4743372FC5959888DA62C15871B5F7 /* Support Files */,
 			);
 			name = PYAuthorizedKit;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		E4449593880E6413473F7ED6B6521DEA /* Microphone */ = {
-			isa = PBXGroup;
-			children = (
-				FF7A5F309B5757AFA90051C8E994A241 /* PYMicrophonePrivacy.h */,
-				0AE29EF2CC457FF4F66F66E260F6160E /* PYMicrophonePrivacy.m */,
-			);
-			name = Microphone;
-			path = PYAuthorizedKit/Classes/Microphone;
-			sourceTree = "<group>";
-		};
-		E95308646E8B7F27C5FDEB3234D6E41E /* Contacts */ = {
-			isa = PBXGroup;
-			children = (
-				076505348EBA26161AF4F51090A28D98 /* PYContactsPrivacy.h */,
-				C2C37C60C9C640236629A6479F93577F /* PYContactsPrivacy.m */,
-			);
-			name = Contacts;
-			path = PYAuthorizedKit/Classes/Contacts;
-			sourceTree = "<group>";
-		};
-		E991EE53033ED5290CA224987E049F23 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				ABFDC19FABDDE3FFE941AA9AC77471C9 /* PYPrivacySetting.h */,
-				7A238CE4294960FE334CCD54056A207D /* PYPrivacySetting.m */,
-			);
-			name = Setting;
-			path = PYAuthorizedKit/Classes/Setting;
 			sourceTree = "<group>";
 		};
 		EAA2BED84A32F7B132A054F89628A166 /* Pods-PYPrivacyKitDemoTests */ = {
@@ -399,16 +409,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		FFF1EA0031C967DFE950564117DB3B51 /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				730055F8CF554AFC7E094065F8FD8077 /* PYCameraPrivacy.h */,
-				A30729E3801C7D6ECB8A7C3B5BC9FC65 /* PYCameraPrivacy.m */,
-			);
-			name = Camera;
-			path = PYAuthorizedKit/Classes/Camera;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -426,28 +426,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E2A488FA0F36FE6921436179AE1FB0E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D0D4080DF3D0318C9B752DD4F681B7C /* PYAuthorized.h in Headers */,
-				D1F252FA26DF5DB3665BA895AE27E295 /* PYCalendarPrivacy.h in Headers */,
-				9289B541EC0825929770AB064CC7F018 /* PYCameraPrivacy.h in Headers */,
-				F90B9C922AFC456883C0013E88DFFBB8 /* PYContactsPrivacy.h in Headers */,
-				B093693128FC4A0DB0211CA3FD4E20F0 /* PYHealthPrivacy.h in Headers */,
-				94ED2935CD2694DAED613A34B9EDE28F /* PYLocationPrivacy.h in Headers */,
-				607B89CE21C2F63FB62948B2A869B8DA /* PYMicrophonePrivacy.h in Headers */,
-				D61DB7DAA475CA92F22A516C338B9B67 /* PYNetWorkPrivacy.h in Headers */,
-				5E6262E32813EBB47C47F1D9553E3756 /* PYPhotosPrivacy.h in Headers */,
-				D75AD51A4F7A48D020B3112457A0DA57 /* PYPrivacySetting.h in Headers */,
-				4F1A70283BE755553D2D9383CDA9015B /* PYRemindersPrivacy.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C90D8EA509B7899025D41399D525EB9C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB3616E89DA9E8FA07689255DE11AB22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E792DB2ACEB279868D866599226DB8 /* PYAuthorized.h in Headers */,
+				78DD8230EDAD240EBED193E1B8632251 /* PYAuthorizedSetting.h in Headers */,
+				987605AF2447C41D28791083FC70970E /* PYCalendarAuthorized.h in Headers */,
+				9962F6E54FA943AB8678A4690F03D7C2 /* PYCameraAuthorized.h in Headers */,
+				069F249DA3526021B97D0EFF460699B7 /* PYContactsAuthorized.h in Headers */,
+				8218D2114B257A3FC41F0DDCFF44AE5A /* PYHealthAuthorized.h in Headers */,
+				245BC7B3B8BBE155C9DC8A385667AE7D /* PYLocationAuthorized.h in Headers */,
+				FE068C95CFC039E5850EB44545007D07 /* PYMicrophoneAuthorized.h in Headers */,
+				4B315524F491A31074278DA1CBA4780E /* PYNetWorkAuthorized.h in Headers */,
+				FF471968A3BE30CADDB0375E6A674800 /* PYPhotosAuthorized.h in Headers */,
+				49137ACEC645787A1C879CB44E37365A /* PYRemindersAuthorized.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,8 +529,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFB7B78D0CAD34E00BB0D1291A6DE713 /* Build configuration list for PBXNativeTarget "PYAuthorizedKit" */;
 			buildPhases = (
-				7E2A488FA0F36FE6921436179AE1FB0E /* Headers */,
-				0DAE005FB2B0787B6B179BFAA3A8D608 /* Sources */,
+				FB3616E89DA9E8FA07689255DE11AB22 /* Headers */,
+				C4E6CA012E4D36C00C835587F8557FBE /* Sources */,
 				6FCDE3D090930EEA57838BD526DB9BAF /* Frameworks */,
 			);
 			buildRules = (
@@ -585,24 +585,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0DAE005FB2B0787B6B179BFAA3A8D608 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EEDD3EB50222CD2277EDDD7DC6756D99 /* PYAuthorizedKit-dummy.m in Sources */,
-				D8C55401D299939477983F36174443DD /* PYCalendarPrivacy.m in Sources */,
-				3871F24812AF6F680E5019E9E005775F /* PYCameraPrivacy.m in Sources */,
-				DC9E943C980AD890748B2137E9925F61 /* PYContactsPrivacy.m in Sources */,
-				16B7B497151B827822BBD3F558E86736 /* PYHealthPrivacy.m in Sources */,
-				6430BAD0BD805167EEF3CA71279C50CA /* PYLocationPrivacy.m in Sources */,
-				4A5D01D6F533D619FBADD364D6897856 /* PYMicrophonePrivacy.m in Sources */,
-				A8C64954D611BC726928EFAA9D54764E /* PYNetWorkPrivacy.m in Sources */,
-				0965FF4D4106D2D353CA7A739CD7CDF3 /* PYPhotosPrivacy.m in Sources */,
-				BD2D32CFAD83EBB728F48358D6F3F826 /* PYPrivacySetting.m in Sources */,
-				82DDCD8AFDC1DD265E70A8E3B7666FBE /* PYRemindersPrivacy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		365679928AEBBAB525540A0B0B6E6183 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,6 +605,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E6CA012E4D36C00C835587F8557FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC4FE4240332D8DD8B5CF8807CE7F9E /* PYAuthorizedKit-dummy.m in Sources */,
+				5846D94F43B7061CDD4F5A9C38C17FC2 /* PYAuthorizedSetting.m in Sources */,
+				709DDE44CB70561FC95F53DE62793232 /* PYCalendarAuthorized.m in Sources */,
+				60ABCC0B47560440AF84E5B0A7EB2F37 /* PYCameraAuthorized.m in Sources */,
+				78BD68D42B1B6506973319E2F41ABC4F /* PYContactsAuthorized.m in Sources */,
+				DF4C31D9916881A0F63111066F0D1950 /* PYHealthAuthorized.m in Sources */,
+				3DDD26CDEE2E6F2BF7328A8DE37E6BEE /* PYLocationAuthorized.m in Sources */,
+				6BCFB8D48BC91E808271337A81620175 /* PYMicrophoneAuthorized.m in Sources */,
+				D17BB9038989B7A4777788A9EA876E59 /* PYNetWorkAuthorized.m in Sources */,
+				BBFDCD03A2C3D3F66781528CE5EA9CBC /* PYPhotosAuthorized.m in Sources */,
+				D20D84AB27E065F6CE5BF68F8C29E968 /* PYRemindersAuthorized.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

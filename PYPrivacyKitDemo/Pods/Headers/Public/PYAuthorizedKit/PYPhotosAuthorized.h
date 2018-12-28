@@ -1,0 +1,1 @@
+../../../../../PYAuthorizedKit/Classes/Photos/PYPhotosAuthorized.h
