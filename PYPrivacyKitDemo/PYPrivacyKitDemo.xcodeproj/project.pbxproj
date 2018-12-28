@@ -312,11 +312,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PYPrivacyKitDemo/Pods-PYPrivacyKitDemo-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/PYPrivacyKit/PYPrivacyKit.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/PYAuthorizedKit/PYAuthorizedKit.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PYPrivacyKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PYAuthorizedKit.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

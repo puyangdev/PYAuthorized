@@ -9,7 +9,7 @@ target 'PYPrivacyKitDemo' do
 
   # Pods for PYPrivacyKitDemo
 
-  pod 'PYPrivacyKit',:path => '../'
+  pod 'PYAuthorizedKit',:path => '../'
 
   target 'PYPrivacyKitDemoTests' do
     inherit! :search_paths

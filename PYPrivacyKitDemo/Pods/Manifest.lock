@@ -1,16 +1,16 @@
 PODS:
-  - PYPrivacyKit (0.0.4)
+  - PYAuthorizedKit (0.0.5)
 
 DEPENDENCIES:
-  - PYPrivacyKit (from `../`)
+  - PYAuthorizedKit (from `../`)
 
 EXTERNAL SOURCES:
-  PYPrivacyKit:
+  PYAuthorizedKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PYPrivacyKit: 49dac95bf6dc98a62d706e3df2803206ce85cd28
+  PYAuthorizedKit: 9117c5282b7292325aaa15b854002a7ba854cd18
 
-PODFILE CHECKSUM: 8dab19d19d3f8d03caa54a5251ba8f83cb709c4a
+PODFILE CHECKSUM: 380df8648f46ae50cfcb84aa9ececaa035d88f62
 
 COCOAPODS: 1.5.3

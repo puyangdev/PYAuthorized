@@ -7,154 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E9FB5A2ED66E1EDBC998A2E5C4465A /* PYCalendarPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A49F7C1A1EAFECC9572E4CEDBD6EB /* PYCalendarPrivacy.m */; };
-		061449E60FCC29661DF49E5A14C276AC /* PYLocationPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E060EF9E6968F73CD6A7BCB80275DC /* PYLocationPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1AAC175EFF762DB210DFCA0E00D8CC61 /* PYPrivacySetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B93BA31AA4016C6181C456268159875 /* PYPrivacySetting.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		37DDBF675E2BF29A23DD7415149CD02A /* Pods-PYPrivacyKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699EE7692D8DD524663BF4BC2B0B06DB /* Pods-PYPrivacyKitDemo-dummy.m */; };
-		3826704B6F7BAA4069AB6E1473E1202B /* PYPrivacyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7694149DC894131F0FB58024CD7B7FF /* PYPrivacyKit-dummy.m */; };
-		39CE654A6A86DE4950426004E41D1DCB /* PYHealthPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EE612AE03C60D13CD45D8418CE3A59 /* PYHealthPrivacy.m */; };
-		40D96995E9CC599E0E490FD63D113F4C /* PYContactsPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = C194C9B11442CF2C9AEF28B8C4BB2D11 /* PYContactsPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		43746FDCD57785181015BDB2E1182268 /* PYPhotosPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E271D01B19B1B0220F6FEEF7A00658 /* PYPhotosPrivacy.m */; };
-		58284F66D2F5E019C2319404CEFDF7A5 /* PYNetWorkPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2003E6DB258EA7F77AAA5FC6500FC00 /* PYNetWorkPrivacy.m */; };
-		5871795693D0EF824E803DDE3D0296C4 /* PYMicrophonePrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6959234DB6937580DE0E4B608A38DB /* PYMicrophonePrivacy.m */; };
-		79C7911935AAD3DE2D613D27CC9FEAC0 /* PYHealthPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = B3817351CC3FB073F40074961A31EBF0 /* PYHealthPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7D991FE77C35DEBB3D8F2523A1F14B2F /* PYPrivacySetting.m in Sources */ = {isa = PBXBuildFile; fileRef = D171EDC77D7C682AC7A3E867561432B7 /* PYPrivacySetting.m */; };
-		8740EF38DE67390FFFCA6DF799B7DFED /* PYNetWorkPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F990468F3269A900BD4658554E191D0 /* PYNetWorkPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8ACA7CEB076DC4BAD70C831D07240043 /* PYCameraPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F97BD99CB97B151C001A84E503AD54 /* PYCameraPrivacy.m */; };
-		8DA9DB38382DB052F02EE4A04D44A56B /* PYRemindersPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E347EE7F4029CC79FA92712FFDD7BD1 /* PYRemindersPrivacy.m */; };
-		960A1A1BCA3B9C76100E8FD16E910B59 /* Pods-PYPrivacyKitDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2BDEC264B7683005DA28555841F7A /* Pods-PYPrivacyKitDemoTests-dummy.m */; };
-		9C037E25208FCB1EBCD1F7A6FFDB837B /* PYPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = C21CBF780C3A50E79866F0F886B242AB /* PYPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A4B42E1FE8B83D3C89DEA364C898C2F1 /* PYMicrophonePrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 34F031E8DCCA020A11F2E4674B3E0BD2 /* PYMicrophonePrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A8E0A05FA2FB9D8BDA0A734468029B64 /* PYLocationPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1322DD2BD4499D417CCF88FCB945064A /* PYLocationPrivacy.m */; };
-		B16944725D8F1F926F45D12503075A66 /* Pods-PYPrivacyKitDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C1F9A769A0CC690AF0071DEA71F13 /* Pods-PYPrivacyKitDemoUITests-dummy.m */; };
-		B4711A19DBBF99F885634DFF6A0E1BBA /* PYRemindersPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB7A0B088662BC32220D98D2FF6AB08 /* PYRemindersPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BCB6B718B94195FDF63DFF97F7E65EB6 /* PYCalendarPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1225A85C9549FF71846A7E6B7BA8FA49 /* PYCalendarPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CD4D34CBD946B9F7BAB16516DFF124EB /* PYPhotosPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF8442BA1FECC2551ABA3D802DAAB6A /* PYPhotosPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D6DDBD27DD0A8585AB07CADA16E3A714 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D90A552024EC5D25FC86186A35BD0F /* icon.png */; };
-		E1D1B25C15C92DCCC3C5C75ECE3C215C /* PYCameraPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 615EA7072B4E2D932F30D96929A2B4C9 /* PYCameraPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E8C9AD91792C03657193B8C408317A7B /* PYContactsPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5ABC9E75F6E8D4748719075788A1A80 /* PYContactsPrivacy.m */; };
+		0965FF4D4106D2D353CA7A739CD7CDF3 /* PYPhotosPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F386F3F12C04BB55D8A17FCB15723 /* PYPhotosPrivacy.m */; };
+		16B7B497151B827822BBD3F558E86736 /* PYHealthPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9243E59866643F8D7757DE5C747C5C54 /* PYHealthPrivacy.m */; };
+		28B04FF735C1F0E1B55BC2D8BBF09114 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3DADEB66EBA835D8DF176933E7462AD /* icon.png */; };
+		3871F24812AF6F680E5019E9E005775F /* PYCameraPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = A30729E3801C7D6ECB8A7C3B5BC9FC65 /* PYCameraPrivacy.m */; };
+		4A5D01D6F533D619FBADD364D6897856 /* PYMicrophonePrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE29EF2CC457FF4F66F66E260F6160E /* PYMicrophonePrivacy.m */; };
+		4F1A70283BE755553D2D9383CDA9015B /* PYRemindersPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = D078C42087AC5FFE3198335FFD657FFC /* PYRemindersPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E6262E32813EBB47C47F1D9553E3756 /* PYPhotosPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C66B7AD2D460D0B1DEFB1F5D6A01000 /* PYPhotosPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		607B89CE21C2F63FB62948B2A869B8DA /* PYMicrophonePrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = FF7A5F309B5757AFA90051C8E994A241 /* PYMicrophonePrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6430BAD0BD805167EEF3CA71279C50CA /* PYLocationPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D32336777F0681178B9E4BC08795BA7 /* PYLocationPrivacy.m */; };
+		79FF6B813064CD4E1C2FCB3CBC3B8820 /* Pods-PYPrivacyKitDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7C1F9A769A0CC690AF0071DEA71F13 /* Pods-PYPrivacyKitDemoUITests-dummy.m */; };
+		82DDCD8AFDC1DD265E70A8E3B7666FBE /* PYRemindersPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126D209F5C52C1EBBF29A4A1F19276D /* PYRemindersPrivacy.m */; };
+		9289B541EC0825929770AB064CC7F018 /* PYCameraPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 730055F8CF554AFC7E094065F8FD8077 /* PYCameraPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94ED2935CD2694DAED613A34B9EDE28F /* PYLocationPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE0C0A2B8E230E2DC2CC397AAB32DDA /* PYLocationPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D0D4080DF3D0318C9B752DD4F681B7C /* PYAuthorized.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D13432D3D1C1B5EA9CC48D9D0C3115 /* PYAuthorized.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8C64954D611BC726928EFAA9D54764E /* PYNetWorkPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE3141215678059A29220E5B4BE6620 /* PYNetWorkPrivacy.m */; };
+		B093693128FC4A0DB0211CA3FD4E20F0 /* PYHealthPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 05FA4F3D34E3E0EA8C01EBF5CE2B8A0D /* PYHealthPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B69EC2EDE5A31870E68A8DAA0D81BED9 /* Pods-PYPrivacyKitDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C2BDEC264B7683005DA28555841F7A /* Pods-PYPrivacyKitDemoTests-dummy.m */; };
+		BD2D32CFAD83EBB728F48358D6F3F826 /* PYPrivacySetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A238CE4294960FE334CCD54056A207D /* PYPrivacySetting.m */; };
+		D1F252FA26DF5DB3665BA895AE27E295 /* PYCalendarPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A5430017B1CF325A1B24A7639A0FE0 /* PYCalendarPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D61DB7DAA475CA92F22A516C338B9B67 /* PYNetWorkPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F8E685B583A4321308C5E728233E6F /* PYNetWorkPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D75AD51A4F7A48D020B3112457A0DA57 /* PYPrivacySetting.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFDC19FABDDE3FFE941AA9AC77471C9 /* PYPrivacySetting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8C55401D299939477983F36174443DD /* PYCalendarPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB1E712DC0BFA9DABFE7A1D3303394 /* PYCalendarPrivacy.m */; };
+		DC9E943C980AD890748B2137E9925F61 /* PYContactsPrivacy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C37C60C9C640236629A6479F93577F /* PYContactsPrivacy.m */; };
+		EEDD3EB50222CD2277EDDD7DC6756D99 /* PYAuthorizedKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48D383603A2EE48ACE1FEF3FE58765D6 /* PYAuthorizedKit-dummy.m */; };
+		F2EFF249B1096986A12BD2B06B90D46E /* Pods-PYPrivacyKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699EE7692D8DD524663BF4BC2B0B06DB /* Pods-PYPrivacyKitDemo-dummy.m */; };
+		F90B9C922AFC456883C0013E88DFFBB8 /* PYContactsPrivacy.h in Headers */ = {isa = PBXBuildFile; fileRef = 076505348EBA26161AF4F51090A28D98 /* PYContactsPrivacy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2171914DF82A60596E132DA237D3C9E0 /* PBXContainerItemProxy */ = {
+		2BC839303E4C1D0284ADA680EE9E0475 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AC99FE7366F643EE97E04C25128D2161;
+			remoteGlobalIDString = BC68B2E971F70B2D6AC35D39932726E5;
+			remoteInfo = "PYAuthorizedKit-PYAuthorizedKit";
+		};
+		2EBA20C97E53AA18EFA26A89ECD4DEB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABAB41C4494C2F2288EF357734F8E52B;
 			remoteInfo = "Pods-PYPrivacyKitDemo";
 		};
-		2400091717655D385D9E9FE766C08429 /* PBXContainerItemProxy */ = {
+		7CCAA8866CC9B3AE6E99A289AC5BA296 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 590A4A2B4A4C0F3CD81F92048FDD5E1C;
-			remoteInfo = PYPrivacyKit;
-		};
-		70DE92441BC73C57FADA7A3BF063FD4A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE2289F2ECD4B157616476D034854545;
-			remoteInfo = "PYPrivacyKit-PYPrivacyKit";
-		};
-		FFC88FC630B2F3273757060120C60E8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC99FE7366F643EE97E04C25128D2161;
+			remoteGlobalIDString = ABAB41C4494C2F2288EF357734F8E52B;
 			remoteInfo = "Pods-PYPrivacyKitDemo";
+		};
+		C3ABAB38BB5448AF6CDB2BCA7F120E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E705E57B46E6AD5C66B3DC544B8AB00A;
+			remoteInfo = PYAuthorizedKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A6959234DB6937580DE0E4B608A38DB /* PYMicrophonePrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYMicrophonePrivacy.m; sourceTree = "<group>"; };
+		05FA4F3D34E3E0EA8C01EBF5CE2B8A0D /* PYHealthPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYHealthPrivacy.h; sourceTree = "<group>"; };
+		076505348EBA26161AF4F51090A28D98 /* PYContactsPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYContactsPrivacy.h; sourceTree = "<group>"; };
+		08D13432D3D1C1B5EA9CC48D9D0C3115 /* PYAuthorized.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYAuthorized.h; path = PYAuthorizedKit/Classes/PYAuthorized.h; sourceTree = "<group>"; };
+		0AE29EF2CC457FF4F66F66E260F6160E /* PYMicrophonePrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYMicrophonePrivacy.m; sourceTree = "<group>"; };
+		0BCB1E712DC0BFA9DABFE7A1D3303394 /* PYCalendarPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYCalendarPrivacy.m; sourceTree = "<group>"; };
+		0C66B7AD2D460D0B1DEFB1F5D6A01000 /* PYPhotosPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYPhotosPrivacy.h; sourceTree = "<group>"; };
 		0DB183717492955B9061B9051F2667EC /* Pods-PYPrivacyKitDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYPrivacyKitDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1225A85C9549FF71846A7E6B7BA8FA49 /* PYCalendarPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYCalendarPrivacy.h; sourceTree = "<group>"; };
-		1322DD2BD4499D417CCF88FCB945064A /* PYLocationPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYLocationPrivacy.m; sourceTree = "<group>"; };
+		1126D209F5C52C1EBBF29A4A1F19276D /* PYRemindersPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYRemindersPrivacy.m; sourceTree = "<group>"; };
+		1BA29E90AA59317EEF5F6DB5E84B09FF /* PYAuthorizedKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYAuthorizedKit-prefix.pch"; sourceTree = "<group>"; };
 		1D888768C83E24D72013B4234B659D98 /* Pods-PYPrivacyKitDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
-		1E347EE7F4029CC79FA92712FFDD7BD1 /* PYRemindersPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYRemindersPrivacy.m; sourceTree = "<group>"; };
-		1F30B499289218BDC5A1547FB06E006A /* libPods-PYPrivacyKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PYPrivacyKitDemo.a"; path = "libPods-PYPrivacyKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		29EE612AE03C60D13CD45D8418CE3A59 /* PYHealthPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYHealthPrivacy.m; sourceTree = "<group>"; };
-		2D4A49F7C1A1EAFECC9572E4CEDBD6EB /* PYCalendarPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYCalendarPrivacy.m; sourceTree = "<group>"; };
+		24CA874C3A391F53BF91B7DD166E8B1F /* PYAuthorizedKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PYAuthorizedKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		27B3A96E97F194B59E020F1BB7BFF3D2 /* libPYAuthorizedKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPYAuthorizedKit.a; path = libPYAuthorizedKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F7C1F9A769A0CC690AF0071DEA71F13 /* Pods-PYPrivacyKitDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYPrivacyKitDemoUITests-dummy.m"; sourceTree = "<group>"; };
-		2F990468F3269A900BD4658554E191D0 /* PYNetWorkPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYNetWorkPrivacy.h; sourceTree = "<group>"; };
 		34E3B832F8CA26A27817D088093DCE98 /* Pods-PYPrivacyKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		34F031E8DCCA020A11F2E4674B3E0BD2 /* PYMicrophonePrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYMicrophonePrivacy.h; sourceTree = "<group>"; };
-		3B93BA31AA4016C6181C456268159875 /* PYPrivacySetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYPrivacySetting.h; sourceTree = "<group>"; };
-		42DC3303D18EF93B3FA376EAF77FB4DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3D32336777F0681178B9E4BC08795BA7 /* PYLocationPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYLocationPrivacy.m; sourceTree = "<group>"; };
+		457F386F3F12C04BB55D8A17FCB15723 /* PYPhotosPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYPhotosPrivacy.m; sourceTree = "<group>"; };
+		48D383603A2EE48ACE1FEF3FE58765D6 /* PYAuthorizedKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PYAuthorizedKit-dummy.m"; sourceTree = "<group>"; };
 		4C40F2F2AA6A3A5B7DEC196878782160 /* Pods-PYPrivacyKitDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemoTests-frameworks.sh"; sourceTree = "<group>"; };
-		4CB7A0B088662BC32220D98D2FF6AB08 /* PYRemindersPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYRemindersPrivacy.h; sourceTree = "<group>"; };
-		5A9BA188FE4F2E7D08A42B41031E0958 /* PYPrivacyKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PYPrivacyKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		615EA7072B4E2D932F30D96929A2B4C9 /* PYCameraPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYCameraPrivacy.h; sourceTree = "<group>"; };
+		57F8E685B583A4321308C5E728233E6F /* PYNetWorkPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYNetWorkPrivacy.h; sourceTree = "<group>"; };
+		5EE3141215678059A29220E5B4BE6620 /* PYNetWorkPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYNetWorkPrivacy.m; sourceTree = "<group>"; };
 		699EE7692D8DD524663BF4BC2B0B06DB /* Pods-PYPrivacyKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYPrivacyKitDemo-dummy.m"; sourceTree = "<group>"; };
-		6FFDD5E99CC9D8CB76A76E8DB1E2D6F7 /* PYPrivacyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PYPrivacyKit-prefix.pch"; sourceTree = "<group>"; };
-		73D90A552024EC5D25FC86186A35BD0F /* icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon.png; path = PYPrivacyKit/Assets/icon.png; sourceTree = "<group>"; };
+		730055F8CF554AFC7E094065F8FD8077 /* PYCameraPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYCameraPrivacy.h; sourceTree = "<group>"; };
+		759311EF194200D33F7C0AE464F73908 /* ResourceBundle-PYAuthorizedKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PYAuthorizedKit-Info.plist"; sourceTree = "<group>"; };
+		76776F4ABF7E9F61BCD0E569E13EE9CC /* libPods-PYPrivacyKitDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PYPrivacyKitDemoTests.a"; path = "libPods-PYPrivacyKitDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C368008435F1159341526FF7C80B99 /* Pods-PYPrivacyKitDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYPrivacyKitDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		78F97BD99CB97B151C001A84E503AD54 /* PYCameraPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYCameraPrivacy.m; sourceTree = "<group>"; };
-		7DF8442BA1FECC2551ABA3D802DAAB6A /* PYPhotosPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYPhotosPrivacy.h; sourceTree = "<group>"; };
+		7A238CE4294960FE334CCD54056A207D /* PYPrivacySetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYPrivacySetting.m; sourceTree = "<group>"; };
 		84C2BDEC264B7683005DA28555841F7A /* Pods-PYPrivacyKitDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PYPrivacyKitDemoTests-dummy.m"; sourceTree = "<group>"; };
 		87AEE9D4E37DCC01BA614518DEEB3297 /* Pods-PYPrivacyKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		89F3E2A8EB712C329FEBA9153196D9DF /* Pods-PYPrivacyKitDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FE0C0A2B8E230E2DC2CC397AAB32DDA /* PYLocationPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYLocationPrivacy.h; sourceTree = "<group>"; };
+		90CD57D4BC160C3105600BF883E746F4 /* libPods-PYPrivacyKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PYPrivacyKitDemo.a"; path = "libPods-PYPrivacyKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9243E59866643F8D7757DE5C747C5C54 /* PYHealthPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYHealthPrivacy.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9513524B7243BF65A39CB8EF9D73FCB6 /* Pods-PYPrivacyKitDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemo-frameworks.sh"; sourceTree = "<group>"; };
 		954F9181B730132B8D071D800CA02CA0 /* Pods-PYPrivacyKitDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYPrivacyKitDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		95E060EF9E6968F73CD6A7BCB80275DC /* PYLocationPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYLocationPrivacy.h; sourceTree = "<group>"; };
-		98732F58F30421C8B6E9D3C1DBDAF933 /* libPYPrivacyKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPYPrivacyKit.a; path = libPYPrivacyKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		990CFA16B426EE38A75DA814B01FB39A /* libPods-PYPrivacyKitDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PYPrivacyKitDemoUITests.a"; path = "libPods-PYPrivacyKitDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5ABC9E75F6E8D4748719075788A1A80 /* PYContactsPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYContactsPrivacy.m; sourceTree = "<group>"; };
-		ADC38F6CE1331EA650932E20F1C39494 /* PYPrivacyKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYPrivacyKit.xcconfig; sourceTree = "<group>"; };
+		99A5430017B1CF325A1B24A7639A0FE0 /* PYCalendarPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYCalendarPrivacy.h; sourceTree = "<group>"; };
+		9CA5E99A912563928002D460B675C415 /* libPods-PYPrivacyKitDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PYPrivacyKitDemoUITests.a"; path = "libPods-PYPrivacyKitDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30729E3801C7D6ECB8A7C3B5BC9FC65 /* PYCameraPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYCameraPrivacy.m; sourceTree = "<group>"; };
+		A3DADEB66EBA835D8DF176933E7462AD /* icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon.png; path = PYAuthorizedKit/Assets/icon.png; sourceTree = "<group>"; };
+		ABFDC19FABDDE3FFE941AA9AC77471C9 /* PYPrivacySetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYPrivacySetting.h; sourceTree = "<group>"; };
+		AC03C403B5B4E984BC2B6C8AD64095F7 /* PYAuthorizedKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PYAuthorizedKit.xcconfig; sourceTree = "<group>"; };
+		ADF0DF0A4126A461365D27519514CA4A /* PYAuthorizedKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PYAuthorizedKit.bundle; path = "PYAuthorizedKit-PYAuthorizedKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB28AE4C8F4FCA19127E34D2521EE0D /* Pods-PYPrivacyKitDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B3817351CC3FB073F40074961A31EBF0 /* PYHealthPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYHealthPrivacy.h; sourceTree = "<group>"; };
-		BC6E9FCEE8687A3B6FA814258C4A0194 /* PYPrivacyKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PYPrivacyKit.bundle; path = "PYPrivacyKit-PYPrivacyKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEACEFEDC2A1A5996A9E2D1E305536B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BFDE9019DCF944D83DA017DFA8E30A23 /* Pods-PYPrivacyKitDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYPrivacyKitDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C194C9B11442CF2C9AEF28B8C4BB2D11 /* PYContactsPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYContactsPrivacy.h; sourceTree = "<group>"; };
 		C1D37C002F4E4E96446B12B6CE675D4A /* Pods-PYPrivacyKitDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C21CBF780C3A50E79866F0F886B242AB /* PYPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PYPrivacy.h; path = PYPrivacyKit/Classes/PYPrivacy.h; sourceTree = "<group>"; };
+		C2C37C60C9C640236629A6479F93577F /* PYContactsPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYContactsPrivacy.m; sourceTree = "<group>"; };
 		C36AEF9E978C39DB583A5385B4DA3E26 /* Pods-PYPrivacyKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PYPrivacyKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB3381E9B260F368E685DD06922A31BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D001509FE10951E2B57E39BA31815073 /* Pods-PYPrivacyKitDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemo-resources.sh"; sourceTree = "<group>"; };
-		D0E271D01B19B1B0220F6FEEF7A00658 /* PYPhotosPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYPhotosPrivacy.m; sourceTree = "<group>"; };
-		D171EDC77D7C682AC7A3E867561432B7 /* PYPrivacySetting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYPrivacySetting.m; sourceTree = "<group>"; };
-		D7694149DC894131F0FB58024CD7B7FF /* PYPrivacyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PYPrivacyKit-dummy.m"; sourceTree = "<group>"; };
-		DEB23985094292392A3564C3776A962C /* ResourceBundle-PYPrivacyKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PYPrivacyKit-Info.plist"; sourceTree = "<group>"; };
-		E2003E6DB258EA7F77AAA5FC6500FC00 /* PYNetWorkPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PYNetWorkPrivacy.m; sourceTree = "<group>"; };
+		D078C42087AC5FFE3198335FFD657FFC /* PYRemindersPrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYRemindersPrivacy.h; sourceTree = "<group>"; };
+		D2D67F42523884DA10675B70E4BBA155 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E45D73C74941214D84FD3CDE4BA91DF7 /* Pods-PYPrivacyKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PYPrivacyKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F0F1C54023C698C44A3293D690AF3F03 /* Pods-PYPrivacyKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PYPrivacyKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		F3D127CE93DFD97FCCD9398B03D2D398 /* Pods-PYPrivacyKitDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemoUITests-resources.sh"; sourceTree = "<group>"; };
-		FBA3FAC39C89D3437CB49673EADD5C8A /* libPods-PYPrivacyKitDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PYPrivacyKitDemoTests.a"; path = "libPods-PYPrivacyKitDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCD27294C92D00C534077E8F17C4AAD /* Pods-PYPrivacyKitDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PYPrivacyKitDemoTests-resources.sh"; sourceTree = "<group>"; };
+		FF7A5F309B5757AFA90051C8E994A241 /* PYMicrophonePrivacy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PYMicrophonePrivacy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C49EF453B1D55ADB85E3ABA00502F92 /* Frameworks */ = {
+		0B777ED1425A372067E85840EBB77304 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		390F3A1D7A36039A84ACAC612B7F3757 /* Frameworks */ = {
+		19A923C9CD51F07F2A233A2FDF6F5A8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		594AFCD7CC591B26A87CD3C522CD6F02 /* Frameworks */ = {
+		6FCDE3D090930EEA57838BD526DB9BAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2B25FD01E9E88192A1A587545304117 /* Frameworks */ = {
+		9A1DFB71C6681E63AEBA355803356920 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F044641EB87F2FDCEDBF6706A4598342 /* Frameworks */ = {
+		FB09FBE2963794FE1E9ADFA31D9F7527 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -164,16 +164,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D672D12E27EFF3C638859CF05A77035 /* Contacts */ = {
-			isa = PBXGroup;
-			children = (
-				C194C9B11442CF2C9AEF28B8C4BB2D11 /* PYContactsPrivacy.h */,
-				A5ABC9E75F6E8D4748719075788A1A80 /* PYContactsPrivacy.m */,
-			);
-			name = Contacts;
-			path = PYPrivacyKit/Classes/Contacts;
-			sourceTree = "<group>";
-		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,52 +171,64 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		26A918238D248C15C6CB578676674E7F /* Setting */ = {
+		1A23C30FEA89BE49B3FE97CDD1B572DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B93BA31AA4016C6181C456268159875 /* PYPrivacySetting.h */,
-				D171EDC77D7C682AC7A3E867561432B7 /* PYPrivacySetting.m */,
-			);
-			name = Setting;
-			path = PYPrivacyKit/Classes/Setting;
-			sourceTree = "<group>";
-		};
-		2DB4B59CBA60A1BBCFC7E3E6832B5651 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				73D90A552024EC5D25FC86186A35BD0F /* icon.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		58771F7D18DA4B4732DD603101B76DF5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1F30B499289218BDC5A1547FB06E006A /* libPods-PYPrivacyKitDemo.a */,
-				FBA3FAC39C89D3437CB49673EADD5C8A /* libPods-PYPrivacyKitDemoTests.a */,
-				990CFA16B426EE38A75DA814B01FB39A /* libPods-PYPrivacyKitDemoUITests.a */,
-				98732F58F30421C8B6E9D3C1DBDAF933 /* libPYPrivacyKit.a */,
-				BC6E9FCEE8687A3B6FA814258C4A0194 /* PYPrivacyKit.bundle */,
+				90CD57D4BC160C3105600BF883E746F4 /* libPods-PYPrivacyKitDemo.a */,
+				76776F4ABF7E9F61BCD0E569E13EE9CC /* libPods-PYPrivacyKitDemoTests.a */,
+				9CA5E99A912563928002D460B675C415 /* libPods-PYPrivacyKitDemoUITests.a */,
+				27B3A96E97F194B59E020F1BB7BFF3D2 /* libPYAuthorizedKit.a */,
+				ADF0DF0A4126A461365D27519514CA4A /* PYAuthorizedKit.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5DFD1A430AB1E1448F7E41B67E559CA9 /* Health */ = {
+		2AF14AD4A6071A0857AB219543F46C25 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B3817351CC3FB073F40074961A31EBF0 /* PYHealthPrivacy.h */,
-				29EE612AE03C60D13CD45D8418CE3A59 /* PYHealthPrivacy.m */,
-			);
-			name = Health;
-			path = PYPrivacyKit/Classes/Health;
-			sourceTree = "<group>";
-		};
-		76A33FD2CFB1309070920B1837849A84 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B298EF41127D52EA17546309C5AEB671 /* PYPrivacyKit */,
+				E2C8FE0E92B07CD0321DD4BDE28D5BAF /* PYAuthorizedKit */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		38DCF794146EC614AFB9EE1407BBE21A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BEEACEFEDC2A1A5996A9E2D1E305536B /* LICENSE */,
+				24CA874C3A391F53BF91B7DD166E8B1F /* PYAuthorizedKit.podspec */,
+				D2D67F42523884DA10675B70E4BBA155 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4290C78D28F21030E1C47F977FF6B23A /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				57F8E685B583A4321308C5E728233E6F /* PYNetWorkPrivacy.h */,
+				5EE3141215678059A29220E5B4BE6620 /* PYNetWorkPrivacy.m */,
+			);
+			name = NetWork;
+			path = PYAuthorizedKit/Classes/NetWork;
+			sourceTree = "<group>";
+		};
+		5AC024CAEBC99632EA21E7BEA9B265DB /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				8FE0C0A2B8E230E2DC2CC397AAB32DDA /* PYLocationPrivacy.h */,
+				3D32336777F0681178B9E4BC08795BA7 /* PYLocationPrivacy.m */,
+			);
+			name = Location;
+			path = PYAuthorizedKit/Classes/Location;
+			sourceTree = "<group>";
+		};
+		6DCB669EDC9E57114401000691C6532E /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				99A5430017B1CF325A1B24A7639A0FE0 /* PYCalendarPrivacy.h */,
+				0BCB1E712DC0BFA9DABFE7A1D3303394 /* PYCalendarPrivacy.m */,
+			);
+			name = Calendar;
+			path = PYAuthorizedKit/Classes/Calendar;
 			sourceTree = "<group>";
 		};
 		7D1A9CA2BD4B37D415A026201030BBDE /* Pods-PYPrivacyKitDemoUITests */ = {
@@ -248,95 +250,41 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				76A33FD2CFB1309070920B1837849A84 /* Development Pods */,
+				2AF14AD4A6071A0857AB219543F46C25 /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				58771F7D18DA4B4732DD603101B76DF5 /* Products */,
+				1A23C30FEA89BE49B3FE97CDD1B572DF /* Products */,
 				DBAD03CCA14A3F9A8C7D442C76D3F4E5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		87E58C16F497B939B99B0AC36DF14073 /* Camera */ = {
+		86654D06F0545898DC211F0E39602F1C /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
-				615EA7072B4E2D932F30D96929A2B4C9 /* PYCameraPrivacy.h */,
-				78F97BD99CB97B151C001A84E503AD54 /* PYCameraPrivacy.m */,
-			);
-			name = Camera;
-			path = PYPrivacyKit/Classes/Camera;
-			sourceTree = "<group>";
-		};
-		8F9FA35D6D86A545003D0154D61FB872 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CB3381E9B260F368E685DD06922A31BE /* LICENSE */,
-				5A9BA188FE4F2E7D08A42B41031E0958 /* PYPrivacyKit.podspec */,
-				42DC3303D18EF93B3FA376EAF77FB4DE /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		92C51DF2162D9F4F4D8E073454F399C8 /* Reminders */ = {
-			isa = PBXGroup;
-			children = (
-				4CB7A0B088662BC32220D98D2FF6AB08 /* PYRemindersPrivacy.h */,
-				1E347EE7F4029CC79FA92712FFDD7BD1 /* PYRemindersPrivacy.m */,
+				D078C42087AC5FFE3198335FFD657FFC /* PYRemindersPrivacy.h */,
+				1126D209F5C52C1EBBF29A4A1F19276D /* PYRemindersPrivacy.m */,
 			);
 			name = Reminders;
-			path = PYPrivacyKit/Classes/Reminders;
+			path = PYAuthorizedKit/Classes/Reminders;
 			sourceTree = "<group>";
 		};
-		96349698C94F21CA08D6E237E7B2A105 /* NetWork */ = {
+		98F17215BC2866117028F9E0778E2A74 /* Health */ = {
 			isa = PBXGroup;
 			children = (
-				2F990468F3269A900BD4658554E191D0 /* PYNetWorkPrivacy.h */,
-				E2003E6DB258EA7F77AAA5FC6500FC00 /* PYNetWorkPrivacy.m */,
+				05FA4F3D34E3E0EA8C01EBF5CE2B8A0D /* PYHealthPrivacy.h */,
+				9243E59866643F8D7757DE5C747C5C54 /* PYHealthPrivacy.m */,
 			);
-			name = NetWork;
-			path = PYPrivacyKit/Classes/NetWork;
+			name = Health;
+			path = PYAuthorizedKit/Classes/Health;
 			sourceTree = "<group>";
 		};
-		AE473CF23FC0BB217C2269B28DA64C23 /* Calendar */ = {
+		D94DEC1A837B98D3EFC50FB6BE1C4B30 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				1225A85C9549FF71846A7E6B7BA8FA49 /* PYCalendarPrivacy.h */,
-				2D4A49F7C1A1EAFECC9572E4CEDBD6EB /* PYCalendarPrivacy.m */,
+				0C66B7AD2D460D0B1DEFB1F5D6A01000 /* PYPhotosPrivacy.h */,
+				457F386F3F12C04BB55D8A17FCB15723 /* PYPhotosPrivacy.m */,
 			);
-			name = Calendar;
-			path = PYPrivacyKit/Classes/Calendar;
-			sourceTree = "<group>";
-		};
-		B298EF41127D52EA17546309C5AEB671 /* PYPrivacyKit */ = {
-			isa = PBXGroup;
-			children = (
-				C21CBF780C3A50E79866F0F886B242AB /* PYPrivacy.h */,
-				AE473CF23FC0BB217C2269B28DA64C23 /* Calendar */,
-				87E58C16F497B939B99B0AC36DF14073 /* Camera */,
-				0D672D12E27EFF3C638859CF05A77035 /* Contacts */,
-				5DFD1A430AB1E1448F7E41B67E559CA9 /* Health */,
-				F8236BD5BDA8DB0955B320BA2524D5F6 /* Location */,
-				F0B9F183E69D30D6B74B85E203CDD221 /* Microphone */,
-				96349698C94F21CA08D6E237E7B2A105 /* NetWork */,
-				ED3E8FB2AF394B1EAF5C18DC71C6F605 /* Photos */,
-				8F9FA35D6D86A545003D0154D61FB872 /* Pod */,
-				92C51DF2162D9F4F4D8E073454F399C8 /* Reminders */,
-				2DB4B59CBA60A1BBCFC7E3E6832B5651 /* Resources */,
-				26A918238D248C15C6CB578676674E7F /* Setting */,
-				B9D7BFE089E7C8E74070E735D4C5D7A3 /* Support Files */,
-			);
-			name = PYPrivacyKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B9D7BFE089E7C8E74070E735D4C5D7A3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ADC38F6CE1331EA650932E20F1C39494 /* PYPrivacyKit.xcconfig */,
-				D7694149DC894131F0FB58024CD7B7FF /* PYPrivacyKit-dummy.m */,
-				6FFDD5E99CC9D8CB76A76E8DB1E2D6F7 /* PYPrivacyKit-prefix.pch */,
-				DEB23985094292392A3564C3776A962C /* ResourceBundle-PYPrivacyKit-Info.plist */,
-			);
-			name = "Support Files";
-			path = "PYPrivacyKitDemo/Pods/Target Support Files/PYPrivacyKit";
+			name = Photos;
+			path = PYAuthorizedKit/Classes/Photos;
 			sourceTree = "<group>";
 		};
 		DAD56A72894884E2B0B239141BB8805C /* Pods-PYPrivacyKitDemo */ = {
@@ -364,6 +312,58 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E2C8FE0E92B07CD0321DD4BDE28D5BAF /* PYAuthorizedKit */ = {
+			isa = PBXGroup;
+			children = (
+				08D13432D3D1C1B5EA9CC48D9D0C3115 /* PYAuthorized.h */,
+				6DCB669EDC9E57114401000691C6532E /* Calendar */,
+				FFF1EA0031C967DFE950564117DB3B51 /* Camera */,
+				E95308646E8B7F27C5FDEB3234D6E41E /* Contacts */,
+				98F17215BC2866117028F9E0778E2A74 /* Health */,
+				5AC024CAEBC99632EA21E7BEA9B265DB /* Location */,
+				E4449593880E6413473F7ED6B6521DEA /* Microphone */,
+				4290C78D28F21030E1C47F977FF6B23A /* NetWork */,
+				D94DEC1A837B98D3EFC50FB6BE1C4B30 /* Photos */,
+				38DCF794146EC614AFB9EE1407BBE21A /* Pod */,
+				86654D06F0545898DC211F0E39602F1C /* Reminders */,
+				F1641CCABD2FB56185468E93B6FF2175 /* Resources */,
+				E991EE53033ED5290CA224987E049F23 /* Setting */,
+				EC4743372FC5959888DA62C15871B5F7 /* Support Files */,
+			);
+			name = PYAuthorizedKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E4449593880E6413473F7ED6B6521DEA /* Microphone */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A5F309B5757AFA90051C8E994A241 /* PYMicrophonePrivacy.h */,
+				0AE29EF2CC457FF4F66F66E260F6160E /* PYMicrophonePrivacy.m */,
+			);
+			name = Microphone;
+			path = PYAuthorizedKit/Classes/Microphone;
+			sourceTree = "<group>";
+		};
+		E95308646E8B7F27C5FDEB3234D6E41E /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				076505348EBA26161AF4F51090A28D98 /* PYContactsPrivacy.h */,
+				C2C37C60C9C640236629A6479F93577F /* PYContactsPrivacy.m */,
+			);
+			name = Contacts;
+			path = PYAuthorizedKit/Classes/Contacts;
+			sourceTree = "<group>";
+		};
+		E991EE53033ED5290CA224987E049F23 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				ABFDC19FABDDE3FFE941AA9AC77471C9 /* PYPrivacySetting.h */,
+				7A238CE4294960FE334CCD54056A207D /* PYPrivacySetting.m */,
+			);
+			name = Setting;
+			path = PYAuthorizedKit/Classes/Setting;
+			sourceTree = "<group>";
+		};
 		EAA2BED84A32F7B132A054F89628A166 /* Pods-PYPrivacyKitDemoTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,145 +379,169 @@
 			path = "Target Support Files/Pods-PYPrivacyKitDemoTests";
 			sourceTree = "<group>";
 		};
-		ED3E8FB2AF394B1EAF5C18DC71C6F605 /* Photos */ = {
+		EC4743372FC5959888DA62C15871B5F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7DF8442BA1FECC2551ABA3D802DAAB6A /* PYPhotosPrivacy.h */,
-				D0E271D01B19B1B0220F6FEEF7A00658 /* PYPhotosPrivacy.m */,
+				AC03C403B5B4E984BC2B6C8AD64095F7 /* PYAuthorizedKit.xcconfig */,
+				48D383603A2EE48ACE1FEF3FE58765D6 /* PYAuthorizedKit-dummy.m */,
+				1BA29E90AA59317EEF5F6DB5E84B09FF /* PYAuthorizedKit-prefix.pch */,
+				759311EF194200D33F7C0AE464F73908 /* ResourceBundle-PYAuthorizedKit-Info.plist */,
 			);
-			name = Photos;
-			path = PYPrivacyKit/Classes/Photos;
+			name = "Support Files";
+			path = "PYPrivacyKitDemo/Pods/Target Support Files/PYAuthorizedKit";
 			sourceTree = "<group>";
 		};
-		F0B9F183E69D30D6B74B85E203CDD221 /* Microphone */ = {
+		F1641CCABD2FB56185468E93B6FF2175 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				34F031E8DCCA020A11F2E4674B3E0BD2 /* PYMicrophonePrivacy.h */,
-				0A6959234DB6937580DE0E4B608A38DB /* PYMicrophonePrivacy.m */,
+				A3DADEB66EBA835D8DF176933E7462AD /* icon.png */,
 			);
-			name = Microphone;
-			path = PYPrivacyKit/Classes/Microphone;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		F8236BD5BDA8DB0955B320BA2524D5F6 /* Location */ = {
+		FFF1EA0031C967DFE950564117DB3B51 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				95E060EF9E6968F73CD6A7BCB80275DC /* PYLocationPrivacy.h */,
-				1322DD2BD4499D417CCF88FCB945064A /* PYLocationPrivacy.m */,
+				730055F8CF554AFC7E094065F8FD8077 /* PYCameraPrivacy.h */,
+				A30729E3801C7D6ECB8A7C3B5BC9FC65 /* PYCameraPrivacy.m */,
 			);
-			name = Location;
-			path = PYPrivacyKit/Classes/Location;
+			name = Camera;
+			path = PYAuthorizedKit/Classes/Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		072D3165CA2B77F929378C0F6AF50E27 /* Headers */ = {
+		442E72D9C4513B71BF25BE661E114111 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB6B718B94195FDF63DFF97F7E65EB6 /* PYCalendarPrivacy.h in Headers */,
-				E1D1B25C15C92DCCC3C5C75ECE3C215C /* PYCameraPrivacy.h in Headers */,
-				40D96995E9CC599E0E490FD63D113F4C /* PYContactsPrivacy.h in Headers */,
-				79C7911935AAD3DE2D613D27CC9FEAC0 /* PYHealthPrivacy.h in Headers */,
-				061449E60FCC29661DF49E5A14C276AC /* PYLocationPrivacy.h in Headers */,
-				A4B42E1FE8B83D3C89DEA364C898C2F1 /* PYMicrophonePrivacy.h in Headers */,
-				8740EF38DE67390FFFCA6DF799B7DFED /* PYNetWorkPrivacy.h in Headers */,
-				CD4D34CBD946B9F7BAB16516DFF124EB /* PYPhotosPrivacy.h in Headers */,
-				9C037E25208FCB1EBCD1F7A6FFDB837B /* PYPrivacy.h in Headers */,
-				1AAC175EFF762DB210DFCA0E00D8CC61 /* PYPrivacySetting.h in Headers */,
-				B4711A19DBBF99F885634DFF6A0E1BBA /* PYRemindersPrivacy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654ED51347207A97D9B99F7248C977EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2A488FA0F36FE6921436179AE1FB0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0D4080DF3D0318C9B752DD4F681B7C /* PYAuthorized.h in Headers */,
+				D1F252FA26DF5DB3665BA895AE27E295 /* PYCalendarPrivacy.h in Headers */,
+				9289B541EC0825929770AB064CC7F018 /* PYCameraPrivacy.h in Headers */,
+				F90B9C922AFC456883C0013E88DFFBB8 /* PYContactsPrivacy.h in Headers */,
+				B093693128FC4A0DB0211CA3FD4E20F0 /* PYHealthPrivacy.h in Headers */,
+				94ED2935CD2694DAED613A34B9EDE28F /* PYLocationPrivacy.h in Headers */,
+				607B89CE21C2F63FB62948B2A869B8DA /* PYMicrophonePrivacy.h in Headers */,
+				D61DB7DAA475CA92F22A516C338B9B67 /* PYNetWorkPrivacy.h in Headers */,
+				5E6262E32813EBB47C47F1D9553E3756 /* PYPhotosPrivacy.h in Headers */,
+				D75AD51A4F7A48D020B3112457A0DA57 /* PYPrivacySetting.h in Headers */,
+				4F1A70283BE755553D2D9383CDA9015B /* PYRemindersPrivacy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C90D8EA509B7899025D41399D525EB9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		590A4A2B4A4C0F3CD81F92048FDD5E1C /* PYPrivacyKit */ = {
+		8F76A25D388B2976FAD0EA6571E53F34 /* Pods-PYPrivacyKitDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F95D465E07399F8CDEA01D4365BC1FC9 /* Build configuration list for PBXNativeTarget "PYPrivacyKit" */;
+			buildConfigurationList = 53EC3C399E721CD8F47D4D99C24F745C /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemoUITests" */;
 			buildPhases = (
-				757571C91C79054A86EC5E2EAC348980 /* Sources */,
-				F044641EB87F2FDCEDBF6706A4598342 /* Frameworks */,
-				072D3165CA2B77F929378C0F6AF50E27 /* Headers */,
+				654ED51347207A97D9B99F7248C977EF /* Headers */,
+				365679928AEBBAB525540A0B0B6E6183 /* Sources */,
+				9A1DFB71C6681E63AEBA355803356920 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E4579E8A02195238841B1D46EB15066C /* PBXTargetDependency */,
-			);
-			name = PYPrivacyKit;
-			productName = PYPrivacyKit;
-			productReference = 98732F58F30421C8B6E9D3C1DBDAF933 /* libPYPrivacyKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		7D09D2760E80CB75F67B04D2F636DE88 /* Pods-PYPrivacyKitDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F74633BC373C22E309BD8A1C7EA64327 /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemoUITests" */;
-			buildPhases = (
-				B7600FC3F286A2341B194DCA09AC41F8 /* Sources */,
-				0C49EF453B1D55ADB85E3ABA00502F92 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8CD77AD62C00CAFCCE6270DAAA25C939 /* PBXTargetDependency */,
+				E5DDD04860E80990E39203AED294180C /* PBXTargetDependency */,
 			);
 			name = "Pods-PYPrivacyKitDemoUITests";
 			productName = "Pods-PYPrivacyKitDemoUITests";
-			productReference = 990CFA16B426EE38A75DA814B01FB39A /* libPods-PYPrivacyKitDemoUITests.a */;
+			productReference = 9CA5E99A912563928002D460B675C415 /* libPods-PYPrivacyKitDemoUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		AC99FE7366F643EE97E04C25128D2161 /* Pods-PYPrivacyKitDemo */ = {
+		ABAB41C4494C2F2288EF357734F8E52B /* Pods-PYPrivacyKitDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9FBB89428227EF2596EF635DDDFB930 /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemo" */;
+			buildConfigurationList = 953F06E02E95B6C2185816D16715A27B /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemo" */;
 			buildPhases = (
-				517BEF8A302C15CC225A25247BAA0DDF /* Sources */,
-				594AFCD7CC591B26A87CD3C522CD6F02 /* Frameworks */,
+				442E72D9C4513B71BF25BE661E114111 /* Headers */,
+				377C21DBD61CF240251EB6252CEA2D26 /* Sources */,
+				FB09FBE2963794FE1E9ADFA31D9F7527 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC1910534A25CE313F2D199D02CAD889 /* PBXTargetDependency */,
+				9BAF1E02C23982EB68E914064D6EA36A /* PBXTargetDependency */,
 			);
 			name = "Pods-PYPrivacyKitDemo";
 			productName = "Pods-PYPrivacyKitDemo";
-			productReference = 1F30B499289218BDC5A1547FB06E006A /* libPods-PYPrivacyKitDemo.a */;
+			productReference = 90CD57D4BC160C3105600BF883E746F4 /* libPods-PYPrivacyKitDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BEF282EB8385DAF896650146B12AA919 /* Pods-PYPrivacyKitDemoTests */ = {
+		BC68B2E971F70B2D6AC35D39932726E5 /* PYAuthorizedKit-PYAuthorizedKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C999CFCFC4C0B6BC22DCF58A0E6AE1FD /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemoTests" */;
+			buildConfigurationList = 809ACF6048A2B6355089C7920162D17D /* Build configuration list for PBXNativeTarget "PYAuthorizedKit-PYAuthorizedKit" */;
 			buildPhases = (
-				B2ABEED579CB15F94BD5D37DA00B6B2F /* Sources */,
-				A2B25FD01E9E88192A1A587545304117 /* Frameworks */,
+				4FB33D63EF11EBE43456BB7BB8A77D18 /* Sources */,
+				0B777ED1425A372067E85840EBB77304 /* Frameworks */,
+				90A25E59EB2CD3AB9918780E1DB4D004 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D068D0B44F6F00759C78E670D408A14B /* PBXTargetDependency */,
+			);
+			name = "PYAuthorizedKit-PYAuthorizedKit";
+			productName = "PYAuthorizedKit-PYAuthorizedKit";
+			productReference = ADF0DF0A4126A461365D27519514CA4A /* PYAuthorizedKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D63EAA4A7C5D88E567302FE389B5F051 /* Pods-PYPrivacyKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B0594CD610CF71437F2C1C512C490B /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemoTests" */;
+			buildPhases = (
+				C90D8EA509B7899025D41399D525EB9C /* Headers */,
+				F8FC0D2AD584E565C27100226DB85809 /* Sources */,
+				19A923C9CD51F07F2A233A2FDF6F5A8E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D9DD422C5E49CDE3FE844BAE7CC375 /* PBXTargetDependency */,
 			);
 			name = "Pods-PYPrivacyKitDemoTests";
 			productName = "Pods-PYPrivacyKitDemoTests";
-			productReference = FBA3FAC39C89D3437CB49673EADD5C8A /* libPods-PYPrivacyKitDemoTests.a */;
+			productReference = 76776F4ABF7E9F61BCD0E569E13EE9CC /* libPods-PYPrivacyKitDemoTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		DE2289F2ECD4B157616476D034854545 /* PYPrivacyKit-PYPrivacyKit */ = {
+		E705E57B46E6AD5C66B3DC544B8AB00A /* PYAuthorizedKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5361AA0E7D516A21826C9203FAB5204 /* Build configuration list for PBXNativeTarget "PYPrivacyKit-PYPrivacyKit" */;
+			buildConfigurationList = DFB7B78D0CAD34E00BB0D1291A6DE713 /* Build configuration list for PBXNativeTarget "PYAuthorizedKit" */;
 			buildPhases = (
-				40E2EA61CA40566AB892E0811A08F833 /* Sources */,
-				390F3A1D7A36039A84ACAC612B7F3757 /* Frameworks */,
-				D5166711134210840CACBE9C3F5864BA /* Resources */,
+				7E2A488FA0F36FE6921436179AE1FB0E /* Headers */,
+				0DAE005FB2B0787B6B179BFAA3A8D608 /* Sources */,
+				6FCDE3D090930EEA57838BD526DB9BAF /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E620AD315D57C2EB0A071536E728DDB8 /* PBXTargetDependency */,
 			);
-			name = "PYPrivacyKit-PYPrivacyKit";
-			productName = "PYPrivacyKit-PYPrivacyKit";
-			productReference = BC6E9FCEE8687A3B6FA814258C4A0194 /* PYPrivacyKit.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = PYAuthorizedKit;
+			productName = PYAuthorizedKit;
+			productReference = 27B3A96E97F194B59E020F1BB7BFF3D2 /* libPYAuthorizedKit.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -536,111 +560,336 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 58771F7D18DA4B4732DD603101B76DF5 /* Products */;
+			productRefGroup = 1A23C30FEA89BE49B3FE97CDD1B572DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC99FE7366F643EE97E04C25128D2161 /* Pods-PYPrivacyKitDemo */,
-				BEF282EB8385DAF896650146B12AA919 /* Pods-PYPrivacyKitDemoTests */,
-				7D09D2760E80CB75F67B04D2F636DE88 /* Pods-PYPrivacyKitDemoUITests */,
-				590A4A2B4A4C0F3CD81F92048FDD5E1C /* PYPrivacyKit */,
-				DE2289F2ECD4B157616476D034854545 /* PYPrivacyKit-PYPrivacyKit */,
+				ABAB41C4494C2F2288EF357734F8E52B /* Pods-PYPrivacyKitDemo */,
+				D63EAA4A7C5D88E567302FE389B5F051 /* Pods-PYPrivacyKitDemoTests */,
+				8F76A25D388B2976FAD0EA6571E53F34 /* Pods-PYPrivacyKitDemoUITests */,
+				E705E57B46E6AD5C66B3DC544B8AB00A /* PYAuthorizedKit */,
+				BC68B2E971F70B2D6AC35D39932726E5 /* PYAuthorizedKit-PYAuthorizedKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D5166711134210840CACBE9C3F5864BA /* Resources */ = {
+		90A25E59EB2CD3AB9918780E1DB4D004 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6DDBD27DD0A8585AB07CADA16E3A714 /* icon.png in Resources */,
+				28B04FF735C1F0E1B55BC2D8BBF09114 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		40E2EA61CA40566AB892E0811A08F833 /* Sources */ = {
+		0DAE005FB2B0787B6B179BFAA3A8D608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEDD3EB50222CD2277EDDD7DC6756D99 /* PYAuthorizedKit-dummy.m in Sources */,
+				D8C55401D299939477983F36174443DD /* PYCalendarPrivacy.m in Sources */,
+				3871F24812AF6F680E5019E9E005775F /* PYCameraPrivacy.m in Sources */,
+				DC9E943C980AD890748B2137E9925F61 /* PYContactsPrivacy.m in Sources */,
+				16B7B497151B827822BBD3F558E86736 /* PYHealthPrivacy.m in Sources */,
+				6430BAD0BD805167EEF3CA71279C50CA /* PYLocationPrivacy.m in Sources */,
+				4A5D01D6F533D619FBADD364D6897856 /* PYMicrophonePrivacy.m in Sources */,
+				A8C64954D611BC726928EFAA9D54764E /* PYNetWorkPrivacy.m in Sources */,
+				0965FF4D4106D2D353CA7A739CD7CDF3 /* PYPhotosPrivacy.m in Sources */,
+				BD2D32CFAD83EBB728F48358D6F3F826 /* PYPrivacySetting.m in Sources */,
+				82DDCD8AFDC1DD265E70A8E3B7666FBE /* PYRemindersPrivacy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365679928AEBBAB525540A0B0B6E6183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FF6B813064CD4E1C2FCB3CBC3B8820 /* Pods-PYPrivacyKitDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377C21DBD61CF240251EB6252CEA2D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EFF249B1096986A12BD2B06B90D46E /* Pods-PYPrivacyKitDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB33D63EF11EBE43456BB7BB8A77D18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		517BEF8A302C15CC225A25247BAA0DDF /* Sources */ = {
+		F8FC0D2AD584E565C27100226DB85809 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37DDBF675E2BF29A23DD7415149CD02A /* Pods-PYPrivacyKitDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		757571C91C79054A86EC5E2EAC348980 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03E9FB5A2ED66E1EDBC998A2E5C4465A /* PYCalendarPrivacy.m in Sources */,
-				8ACA7CEB076DC4BAD70C831D07240043 /* PYCameraPrivacy.m in Sources */,
-				E8C9AD91792C03657193B8C408317A7B /* PYContactsPrivacy.m in Sources */,
-				39CE654A6A86DE4950426004E41D1DCB /* PYHealthPrivacy.m in Sources */,
-				A8E0A05FA2FB9D8BDA0A734468029B64 /* PYLocationPrivacy.m in Sources */,
-				5871795693D0EF824E803DDE3D0296C4 /* PYMicrophonePrivacy.m in Sources */,
-				58284F66D2F5E019C2319404CEFDF7A5 /* PYNetWorkPrivacy.m in Sources */,
-				43746FDCD57785181015BDB2E1182268 /* PYPhotosPrivacy.m in Sources */,
-				3826704B6F7BAA4069AB6E1473E1202B /* PYPrivacyKit-dummy.m in Sources */,
-				7D991FE77C35DEBB3D8F2523A1F14B2F /* PYPrivacySetting.m in Sources */,
-				8DA9DB38382DB052F02EE4A04D44A56B /* PYRemindersPrivacy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2ABEED579CB15F94BD5D37DA00B6B2F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				960A1A1BCA3B9C76100E8FD16E910B59 /* Pods-PYPrivacyKitDemoTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7600FC3F286A2341B194DCA09AC41F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B16944725D8F1F926F45D12503075A66 /* Pods-PYPrivacyKitDemoUITests-dummy.m in Sources */,
+				B69EC2EDE5A31870E68A8DAA0D81BED9 /* Pods-PYPrivacyKitDemoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8CD77AD62C00CAFCCE6270DAAA25C939 /* PBXTargetDependency */ = {
+		11D9DD422C5E49CDE3FE844BAE7CC375 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PYPrivacyKitDemo";
-			target = AC99FE7366F643EE97E04C25128D2161 /* Pods-PYPrivacyKitDemo */;
-			targetProxy = FFC88FC630B2F3273757060120C60E8A /* PBXContainerItemProxy */;
+			target = ABAB41C4494C2F2288EF357734F8E52B /* Pods-PYPrivacyKitDemo */;
+			targetProxy = 7CCAA8866CC9B3AE6E99A289AC5BA296 /* PBXContainerItemProxy */;
 		};
-		CC1910534A25CE313F2D199D02CAD889 /* PBXTargetDependency */ = {
+		9BAF1E02C23982EB68E914064D6EA36A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PYPrivacyKit;
-			target = 590A4A2B4A4C0F3CD81F92048FDD5E1C /* PYPrivacyKit */;
-			targetProxy = 2400091717655D385D9E9FE766C08429 /* PBXContainerItemProxy */;
+			name = PYAuthorizedKit;
+			target = E705E57B46E6AD5C66B3DC544B8AB00A /* PYAuthorizedKit */;
+			targetProxy = C3ABAB38BB5448AF6CDB2BCA7F120E35 /* PBXContainerItemProxy */;
 		};
-		D068D0B44F6F00759C78E670D408A14B /* PBXTargetDependency */ = {
+		E5DDD04860E80990E39203AED294180C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PYPrivacyKitDemo";
-			target = AC99FE7366F643EE97E04C25128D2161 /* Pods-PYPrivacyKitDemo */;
-			targetProxy = 2171914DF82A60596E132DA237D3C9E0 /* PBXContainerItemProxy */;
+			target = ABAB41C4494C2F2288EF357734F8E52B /* Pods-PYPrivacyKitDemo */;
+			targetProxy = 2EBA20C97E53AA18EFA26A89ECD4DEB4 /* PBXContainerItemProxy */;
 		};
-		E4579E8A02195238841B1D46EB15066C /* PBXTargetDependency */ = {
+		E620AD315D57C2EB0A071536E728DDB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "PYPrivacyKit-PYPrivacyKit";
-			target = DE2289F2ECD4B157616476D034854545 /* PYPrivacyKit-PYPrivacyKit */;
-			targetProxy = 70DE92441BC73C57FADA7A3BF063FD4A /* PBXContainerItemProxy */;
+			name = "PYAuthorizedKit-PYAuthorizedKit";
+			target = BC68B2E971F70B2D6AC35D39932726E5 /* PYAuthorizedKit-PYAuthorizedKit */;
+			targetProxy = 2BC839303E4C1D0284ADA680EE9E0475 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		147CC8576F7B78574C6C8D5DF856FD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC03C403B5B4E984BC2B6C8AD64095F7 /* PYAuthorizedKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PYAuthorizedKit/PYAuthorizedKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PYAuthorizedKit;
+				PRODUCT_NAME = PYAuthorizedKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23E8698ACF715A0A3914642CBDB7304B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F3E2A8EB712C329FEBA9153196D9DF /* Pods-PYPrivacyKitDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		343D059B42D71A9F58BC9F87275B2D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45D73C74941214D84FD3CDE4BA91DF7 /* Pods-PYPrivacyKitDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0A39CA6C7ACE502BD2CB8C4CE398E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC03C403B5B4E984BC2B6C8AD64095F7 /* PYAuthorizedKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PYAuthorizedKit";
+				INFOPLIST_FILE = "Target Support Files/PYAuthorizedKit/ResourceBundle-PYAuthorizedKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PYAuthorizedKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		48A22E53CA19AA4AB36955E3A181B327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC03C403B5B4E984BC2B6C8AD64095F7 /* PYAuthorizedKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PYAuthorizedKit";
+				INFOPLIST_FILE = "Target Support Files/PYAuthorizedKit/ResourceBundle-PYAuthorizedKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PYAuthorizedKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		672728B266445170261046D9AEB8CBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D37C002F4E4E96446B12B6CE675D4A /* Pods-PYPrivacyKitDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7644446222FFEA2A93840C1EACFA46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB28AE4C8F4FCA19127E34D2521EE0D /* Pods-PYPrivacyKitDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8408F2F61EB3B4E0036D067A76D3A07B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87AEE9D4E37DCC01BA614518DEEB3297 /* Pods-PYPrivacyKitDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -694,135 +943,43 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		49E35B7718208157481BF50707E7CDBE /* Release */ = {
+		A9A5B624245E5E507700E3619F54B764 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADC38F6CE1331EA650932E20F1C39494 /* PYPrivacyKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PYPrivacyKit";
-				INFOPLIST_FILE = "Target Support Files/PYPrivacyKit/ResourceBundle-PYPrivacyKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = PYPrivacyKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		5B953F5040823804268C331B413613D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADC38F6CE1331EA650932E20F1C39494 /* PYPrivacyKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PYPrivacyKit";
-				INFOPLIST_FILE = "Target Support Files/PYPrivacyKit/ResourceBundle-PYPrivacyKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = PYPrivacyKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		71A3FE2A141D6C173B0B273B65C63FA4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADC38F6CE1331EA650932E20F1C39494 /* PYPrivacyKit.xcconfig */;
+			baseConfigurationReference = AC03C403B5B4E984BC2B6C8AD64095F7 /* PYAuthorizedKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/PYPrivacyKit/PYPrivacyKit-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/PYAuthorizedKit/PYAuthorizedKit-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = PYPrivacyKit;
-				PRODUCT_NAME = PYPrivacyKit;
+				PRODUCT_MODULE_NAME = PYAuthorizedKit;
+				PRODUCT_NAME = PYAuthorizedKit;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		887674EB7850DE22B6A1686D0C6CFC70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEB28AE4C8F4FCA19127E34D2521EE0D /* Pods-PYPrivacyKitDemoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C525A5E7AEBBC2D421E8C5EAAFF8371A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89F3E2A8EB712C329FEBA9153196D9DF /* Pods-PYPrivacyKitDemoTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		C83BAC81FE9020DA9EB534CF32390DB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1D37C002F4E4E96446B12B6CE675D4A /* Pods-PYPrivacyKitDemoTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E005CE6A11B64652688A3E7E3B72149E /* Debug */ = {
+		DACCB7C2BF59B7C357C6D2458E98E664 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 34E3B832F8CA26A27817D088093DCE98 /* Pods-PYPrivacyKitDemo.debug.xcconfig */;
 			buildSettings = {
@@ -843,185 +1000,59 @@
 			};
 			name = Debug;
 		};
-		E1644F0D795772287400DEB5EEBF0308 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADC38F6CE1331EA650932E20F1C39494 /* PYPrivacyKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/PYPrivacyKit/PYPrivacyKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = PYPrivacyKit;
-				PRODUCT_NAME = PYPrivacyKit;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		FAA2645FC5D58A0B87C04CBC4422D860 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87AEE9D4E37DCC01BA614518DEEB3297 /* Pods-PYPrivacyKitDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FF164EAA1D37511F5C602CFD54D77CB2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E45D73C74941214D84FD3CDE4BA91DF7 /* Pods-PYPrivacyKitDemoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C999CFCFC4C0B6BC22DCF58A0E6AE1FD /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemoTests" */ = {
+		53EC3C399E721CD8F47D4D99C24F745C /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C83BAC81FE9020DA9EB534CF32390DB7 /* Debug */,
-				C525A5E7AEBBC2D421E8C5EAAFF8371A /* Release */,
+				7644446222FFEA2A93840C1EACFA46F1 /* Debug */,
+				343D059B42D71A9F58BC9F87275B2D0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9FBB89428227EF2596EF635DDDFB930 /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemo" */ = {
+		809ACF6048A2B6355089C7920162D17D /* Build configuration list for PBXNativeTarget "PYAuthorizedKit-PYAuthorizedKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E005CE6A11B64652688A3E7E3B72149E /* Debug */,
-				FAA2645FC5D58A0B87C04CBC4422D860 /* Release */,
+				3F0A39CA6C7ACE502BD2CB8C4CE398E1 /* Debug */,
+				48A22E53CA19AA4AB36955E3A181B327 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5361AA0E7D516A21826C9203FAB5204 /* Build configuration list for PBXNativeTarget "PYPrivacyKit-PYPrivacyKit" */ = {
+		953F06E02E95B6C2185816D16715A27B /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B953F5040823804268C331B413613D0 /* Debug */,
-				49E35B7718208157481BF50707E7CDBE /* Release */,
+				DACCB7C2BF59B7C357C6D2458E98E664 /* Debug */,
+				8408F2F61EB3B4E0036D067A76D3A07B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F74633BC373C22E309BD8A1C7EA64327 /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemoUITests" */ = {
+		B2B0594CD610CF71437F2C1C512C490B /* Build configuration list for PBXNativeTarget "Pods-PYPrivacyKitDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				887674EB7850DE22B6A1686D0C6CFC70 /* Debug */,
-				FF164EAA1D37511F5C602CFD54D77CB2 /* Release */,
+				672728B266445170261046D9AEB8CBAF /* Debug */,
+				23E8698ACF715A0A3914642CBDB7304B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F95D465E07399F8CDEA01D4365BC1FC9 /* Build configuration list for PBXNativeTarget "PYPrivacyKit" */ = {
+		DFB7B78D0CAD34E00BB0D1291A6DE713 /* Build configuration list for PBXNativeTarget "PYAuthorizedKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71A3FE2A141D6C173B0B273B65C63FA4 /* Debug */,
-				E1644F0D795772287400DEB5EEBF0308 /* Release */,
+				147CC8576F7B78574C6C8D5DF856FD27 /* Debug */,
+				A9A5B624245E5E507700E3619F54B764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

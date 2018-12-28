@@ -1,0 +1,29 @@
+{
+  "name": "PYAuthorizedKit",
+  "version": "0.0.5",
+  "summary": "PYAuthorizedKit ...Help developers",
+  "description": "PYAuthorizedKit,Help developers ..... and so on",
+  "homepage": "https://gitlab.com/py_security/PYAuthorizedKit",
+  "license": "MIT",
+  "authors": {
+    "puyangdev": "648135401@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/puyangdev/PYAuthorizedKit.git",
+    "tag": "0.0.5"
+  },
+  "source_files": [
+    "PYAuthorizedKit/Classes",
+    "PYAuthorizedKit/Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "PYAuthorizedKit/Classes/Exclude",
+  "resource_bundles": {
+    "PYAuthorizedKit": [
+      "PYAuthorizedKit/Assets/*"
+    ]
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n\n#endif"
+}
